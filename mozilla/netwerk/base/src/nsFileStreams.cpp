@@ -499,7 +499,7 @@ nsSafeFileOutputStream::Init(nsIFile* file, PRInt32 ioFlags, PRInt32 perm,
     }
 
     if (NS_SUCCEEDED(rv) && mTargetFileExists) {
-        // Celtx change: No point going ahead if we can confirm the
+        // Drood change: No point going ahead if we can confirm the
         // destination file is not writable.
         PRBool writable = PR_TRUE;
         if (NS_SUCCEEDED(file->IsWritable(&writable))) {
@@ -570,7 +570,7 @@ nsSafeFileOutputStream::Finish()
             rv = mTargetFile->GetNativeLeafName(targetFilename);
             if (NS_SUCCEEDED(rv)) {
                 // This will replace target.
-                // Celtx change: Antivirus software, or anything else that
+                // Drood change: Antivirus software, or anything else that
                 // monitors the filesystem for changes, can interfere with
                 // frequent saves to the same file, manifesting itself in
                 // a NS_ERROR_FILE_ACCESS_DENIED result.

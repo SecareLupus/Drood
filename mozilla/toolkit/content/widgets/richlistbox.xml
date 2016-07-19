@@ -109,7 +109,7 @@
             this.dispatchEvent(event);
 
             // always call this (allows a commandupdater without controller)
-            // Celtx fix: We embed a richlistbox inside an HTML document,
+            // Drood fix: We embed a richlistbox inside an HTML document,
             // which doesn't have a commandDispatcher.
             if (document.commandDispatcher)
               document.commandDispatcher.updateCommands("richlistbox-select");

@@ -3437,7 +3437,7 @@ nsHTMLEditRules::WillMakeBasicBlock(nsISelection *aSelection,
       for (PRInt32 j = arrayOfNodes.Count() - 1; j >= 0; --j) 
       {
         nsCOMPtr<nsIDOMNode> curNode = arrayOfNodes[0];
-        // Celtx addition: Don't try to delete the BR node twice!
+        // Drood addition: Don't try to delete the BR node twice!
         if (curNode != brNode) {
           res = mHTMLEditor->DeleteNode(curNode);
           if (NS_FAILED(res)) return res;

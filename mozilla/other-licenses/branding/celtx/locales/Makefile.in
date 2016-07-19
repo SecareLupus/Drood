@@ -38,7 +38,7 @@ DEPTH          = ../../../..
 topsrcdir      = @top_srcdir@
 srcdir         = @srcdir@
 VPATH          = @srcdir@
-relativesrcdir = other-licenses/branding/celtx/locales
+relativesrcdir = other-licenses/branding/drood/locales
 
 include $(DEPTH)/config/autoconf.mk
 

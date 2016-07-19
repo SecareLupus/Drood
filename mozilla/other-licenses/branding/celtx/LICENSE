@@ -1,19 +1,19 @@
 CePL
 
 AMENDMENTS
-The Celtx Public License Version 1.2 ("CePL") consists of the Mozilla Public License Version 1.1 with the following Amendments, including Exhibit A-CELTX Public License. Files identified with "Exhibit A-CELTX Public License" are governed by the Celtx Public License Version 1.2.
+The Drood Public License Version 1.2 ("CePL") consists of the Mozilla Public License Version 1.1 with the following Amendments, including Exhibit A-DROOD Public License. Files identified with "Exhibit A-DROOD Public License" are governed by the Drood Public License Version 1.2.
 
-Additional Terms applicable to the Celtx Public License.
+Additional Terms applicable to the Drood Public License.
 
 I. Effect.
 
-These additional terms described in this Celtx Public License -- Amendments shall apply to the Celtx Code and to all Covered Code under this License.
+These additional terms described in this Drood Public License -- Amendments shall apply to the Drood Code and to all Covered Code under this License.
 
-II. "Celtx's Branded Code" means Covered Code that Celtx distributes and/or permits others to distribute under one or more trademark(s) which are controlled by Celtx but which are not licensed for use under this License.
+II. "Drood's Branded Code" means Covered Code that Drood distributes and/or permits others to distribute under one or more trademark(s) which are controlled by Drood but which are not licensed for use under this License.
 
-III. Celtx and logo.
+III. Drood and logo.
 
-This License does not grant any rights to use the trademark "Celtx", and/or the Celtx logo even if such marks are included in the Original Code or Modifications.
+This License does not grant any rights to use the trademark "Drood", and/or the Drood logo even if such marks are included in the Original Code or Modifications.
 
 IV. Intentionally Left Blank
 
@@ -21,15 +21,15 @@ V. Use of Modifications and Covered Code by Initial Developer
 
 V.1. In General.
 
-The obligations of Section 3 apply to Celtx, except to the extent specified in this Amendment, Section V.2 and V.3.
+The obligations of Section 3 apply to Drood, except to the extent specified in this Amendment, Section V.2 and V.3.
 
 V.2. Other Products.
 
-Celtx may include Covered Code in products other than the Celtx's Branded Code which are released by Celtx during the two (2) years following the release date of the Original Code, without such additional products becoming subject to the terms of this License, and may license such additional products on different terms from those contained in this License.
+Drood may include Covered Code in products other than the Drood's Branded Code which are released by Drood during the two (2) years following the release date of the Original Code, without such additional products becoming subject to the terms of this License, and may license such additional products on different terms from those contained in this License.
 
 V.3. Alternative Licensing.
 
-Celtx may license the Source Code of Celtx's Branded Code, including Modifications incorporated therein, without such Celtx Branded Code becoming subject to the terms of this License, and may license such Celtx Branded Code on different terms from those contained in this License.
+Drood may license the Source Code of Drood's Branded Code, including Modifications incorporated therein, without such Drood Branded Code becoming subject to the terms of this License, and may license such Drood Branded Code on different terms from those contained in this License.
 
 VI. Litigation.
 
@@ -37,22 +37,22 @@ Notwithstanding the limitations of Section 11, the provisions regarding litigati
 
 ----------------------------------------------------------------------
 
-EXHIBIT A - Celtx Public License.
+EXHIBIT A - Drood Public License.
 
-The contents of this file are subject to the Celtx Public License Version 1.2 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.celtx.com/CePL/
+The contents of this file are subject to the Drood Public License Version 1.2 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.drood.com/CePL/
 
 Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.
 
-The Original Code is Celtx.
+The Original Code is Drood.
 
-The Initial Developer of the Original Code is 4067479 Canada Inc. t/a Celtx. Portions created by Celtx are Copyright © 2000-2006 4067479 Canada Inc. All Rights Reserved.
+The Initial Developer of the Original Code is 4067479 Canada Inc. t/a Drood. Portions created by Drood are Copyright © 2000-2006 4067479 Canada Inc. All Rights Reserved.
 
 Contributor(s): ______________________________________.
 
 ---------------------------------------------------------------------
 
 
-Celtx PUBLIC LICENSE - CePL
+Drood PUBLIC LICENSE - CePL
 
 Version 1.2
 
@@ -153,15 +153,15 @@ This License applies to code to which the Initial Developer has attached the not
 
 6.1. New Versions.
 
-4067479 Canada Inc. t/a Celtx ("CELTX") may publish revised and/or new versions of the License from time to time. Each version will be given a distinguishing version number.
+4067479 Canada Inc. t/a Drood ("DROOD") may publish revised and/or new versions of the License from time to time. Each version will be given a distinguishing version number.
 
 6.2. Effect of New Versions.
 
-Once Covered Code has been published under a particular version of the License, You may always continue to use it under the terms of that version. You may also choose to use such Covered Code under the terms of any subsequent version of the License published by CELTX. No one other than Celtx has the right to modify the terms applicable to Covered Code created under this License.
+Once Covered Code has been published under a particular version of the License, You may always continue to use it under the terms of that version. You may also choose to use such Covered Code under the terms of any subsequent version of the License published by DROOD. No one other than Drood has the right to modify the terms applicable to Covered Code created under this License.
 
 6.3. Derivative Works.
 
-If You create or use a modified version of this License (which you may only do in order to apply it to code which is not already Covered Code governed by this License), You must (a) rename Your license so that the phrases "Celtx" or any confusingly similar phrase do not appear in your license (except to note that your license differs from this License) and (b) otherwise make it clear that Your version of the license contains terms which differ from Celtx Public License. (Filling in the name of the Initial Developer, Original Code or Contributor in the notice described in Exhibit A shall not of themselves be deemed to be modifications of this License.)
+If You create or use a modified version of this License (which you may only do in order to apply it to code which is not already Covered Code governed by this License), You must (a) rename Your license so that the phrases "Drood" or any confusingly similar phrase do not appear in your license (except to note that your license differs from this License) and (b) otherwise make it clear that Your version of the license contains terms which differ from Drood Public License. (Filling in the name of the Initial Developer, Original Code or Contributor in the notice described in Exhibit A shall not of themselves be deemed to be modifications of this License.)
 
 7. DISCLAIMER OF WARRANTY.
 
@@ -189,7 +189,7 @@ UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER TORT (INCLUDING NEGLIG
 
 11. MISCELLANEOUS.
 
-This License represents the complete agreement concerning subject matter hereof. If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable. This License shall be governed by the laws of the Dominion of Canada excluding its conflict-of-law provisions, whose Courts shall have exclusive jurisdiction over all matters arising from this agreement or the use of the Covered Code. Any litigation relating to this License and/or Celtx shall be subject to the jurisdiction of the Supreme Courts of the Province of Ontario, Canada, with the exception of any right of appeal to the Supreme Court of Canada, with the losing party responsible for costs, including without limitation, court costs and reasonable attorneys' fees and expenses. The application of the United Nations Convention on Contracts for the International Sale of Goods is expressly excluded. Any law or regulation which provides that the language of a contract shall be construed against the drafter shall not apply to this License.
+This License represents the complete agreement concerning subject matter hereof. If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable. This License shall be governed by the laws of the Dominion of Canada excluding its conflict-of-law provisions, whose Courts shall have exclusive jurisdiction over all matters arising from this agreement or the use of the Covered Code. Any litigation relating to this License and/or Drood shall be subject to the jurisdiction of the Supreme Courts of the Province of Ontario, Canada, with the exception of any right of appeal to the Supreme Court of Canada, with the losing party responsible for costs, including without limitation, court costs and reasonable attorneys' fees and expenses. The application of the United Nations Convention on Contracts for the International Sale of Goods is expressly excluded. Any law or regulation which provides that the language of a contract shall be construed against the drafter shall not apply to this License.
 
 12. RESPONSIBILITY FOR CLAIMS.
 

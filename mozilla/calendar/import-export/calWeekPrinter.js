@@ -145,7 +145,7 @@ function weekPrint_format(aStream, aStart, aEnd, aCount, aItems, aTitle) {
               <tr> 
                 <td align='center' valign='bottom'>
                   <img style="float: right;"
-                       src="chrome://celtx/skin/celtxwithtext.png"/>
+                       src="chrome://drood/skin/droodwithtext.png"/>
                   {weekTitle}
                 </td>
               </tr>

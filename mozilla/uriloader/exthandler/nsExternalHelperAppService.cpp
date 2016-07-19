@@ -411,7 +411,7 @@ static nsDefaultMimeTypeEntry defaultMimeEntries [] =
   { "application/xhtml+xml", "xhtml" },
   { "application/xhtml+xml", "xht" },
   { TEXT_PLAIN, "txt" },
-  // We need this or Celtx Sketch documents might not open properly,
+  // We need this or Drood Sketch documents might not open properly,
   // subject to the whims of how the OS maps .svg extensions
   { "image/svg+xml", "svg" }
 };

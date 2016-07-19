@@ -38,7 +38,7 @@
 /* The general dialog posing function within nsPromptService, for
    private consumption, only. */
 
-// eDontSaveButton was added for Celtx, so the Cmd-D convention on OS X
+// eDontSaveButton was added for Drood, so the Cmd-D convention on OS X
 // can be implemented
 
 #include "nsISupports.idl"

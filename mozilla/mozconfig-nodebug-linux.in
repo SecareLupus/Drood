@@ -1,4 +1,4 @@
-. $topsrcdir/celtx/config/mozconfig
+. $topsrcdir/drood/config/mozconfig
 
 mk_add_options MOZ_MAKE_FLAGS=-j4
 mk_add_options MOZ_OBJDIR=@TOPSRCDIR@/../objdir
@@ -16,6 +16,6 @@ ac_add_options --enable-static
 ac_add_options --disable-shared
 
 ac_add_options --enable-default-toolkit=cairo-gtk2
-ac_add_options --with-user-appdir=.celtx
+ac_add_options --with-user-appdir=.drood
 ac_add_options --disable-crashreporter
 

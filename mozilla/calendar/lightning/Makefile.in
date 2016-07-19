@@ -46,7 +46,7 @@ include $(DEPTH)/config/autoconf.mk
 
 MODULE		= lightning
 
-# ifdef GF_CELTX
+# ifdef GF_DROOD
 # IS_COMPONENT = 1
 # else
 export XPI_NAME = lightning
@@ -56,7 +56,7 @@ XPI_PKGNAME = lightning
 # endif
 
 STRIP_XPI = 1
-# ifndef GF_CELTX
+# ifndef GF_DROOD
 DIST_FILES = install.rdf
 # endif
 PREF_JS_EXPORTS = $(srcdir)/content/lightning.js
@@ -102,7 +102,7 @@ endif
 
 DEFINES += -DTHUNDERBIRD_VERSION=$(THUNDERBIRD_VERSION) \
            -DAB_CD=$(AB_CD) \
-           -DCELTX_VERSION=$(CELTX_VERSION) \
+           -DDROOD_VERSION=$(DROOD_VERSION) \
            -DFIREFOX_VERSION=$(FIREFOX_VERSION) \
            -DSEAMONKEY_VERSION=$(SEAMONKEY_VERSION) \
            -DLIGHTNING_VERSION=$(LIGHTNING_VERSION) \
@@ -118,7 +118,7 @@ GRE_BUILDID = $(shell $(PYTHON) $(topsrcdir)/config/printconfigsetting.py $(LIBX
 DEFINES += -DGRE_BUILDID=$(GRE_BUILDID)
 endif
 
-ifdef GF_CELTX
+ifdef GF_DROOD
 locales_to_build :=$(AB_CD)
 else
 # Get all directories in /l10n/*, that contain a calendar subdir.

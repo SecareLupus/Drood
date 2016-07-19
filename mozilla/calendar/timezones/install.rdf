@@ -69,7 +69,7 @@
     </em:targetApplication>
     <em:targetApplication>
       <Description>
-        <em:id>celtx@celtx.com</em:id>
+        <em:id>drood@drood.com</em:id>
         <em:minVersion>2.0</em:minVersion>
         <em:maxVersion>*</em:maxVersion>
       </Description>

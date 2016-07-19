@@ -96,11 +96,11 @@ ifneq (,$(filter WINCE WINNT,$(OS_ARCH)))
 XPIDLSRCS += nsIWinAppHelper.idl
 endif
 
-# Celtx addition
+# Drood addition
 XPIDLSRCS += nsIMacAppHelper.idl
 
-ifdef GF_CELTX
-DEFINES += -DGF_CELTX
+ifdef GF_DROOD
+DEFINES += -DGF_DROOD
 endif
 
 EXPORTS = \

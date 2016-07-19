@@ -75,18 +75,18 @@ ifdef MOZ_SUNBIRD
 # install as a global extension in dist/bin/extensions/
 INSTALL_EXTENSION_ID = calendar-timezones@mozilla.org
 else
-ifdef GF_CELTX
+ifdef GF_DROOD
 INSTALL_EXTENSION_ID = calendar-timezones@mozilla.org
 endif
 endif
 
 CALENDAR_VERSION := $(shell cat $(topsrcdir)/calendar/sunbird/config/version.txt)
-CELTX_VERSION := $(shell cat $(topsrcdir)/celtx/config/version.txt)
+DROOD_VERSION := $(shell cat $(topsrcdir)/drood/config/version.txt)
 TIMEZONES_VERSION := $(shell cat $(srcdir)/config/version.txt)
 
 DEFINES += -DAB_CD=$(AB_CD) \
            -DCALENDAR_VERSION=$(CALENDAR_VERSION) \
-           -DCELTX_VERSION=$(CELTX_VERSION) \
+           -DDROOD_VERSION=$(DROOD_VERSION) \
            -DTIMEZONES_VERSION=$(TIMEZONES_VERSION) \
            $(NULL)
 
@@ -108,7 +108,7 @@ endif
 libs::
 	$(NSINSTALL) $(TIMEZONES_SQLITE) $(FINAL_TARGET)
 
-ifdef GF_CELTX
+ifdef GF_DROOD
 locales_to_build :=$(AB_CD)
 else
 # Get all directories in /l10n/*, that contain a calendar subdir.

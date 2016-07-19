@@ -334,7 +334,7 @@ nsPromptService::ConfirmEx(nsIDOMWindow *parent,
 
   block->SetInt(eDefaultButton, (buttonFlags & BUTTON_DEFAULT_MASK) >> 24);
   block->SetInt(eDelayButtonEnable, buttonFlags & BUTTON_DELAY_ENABLE);
-  // Celtx addition
+  // Drood addition
   block->SetInt(eDontSaveButton, -1);
  
   PRInt32 numberButtons = 0;
@@ -360,7 +360,7 @@ nsPromptService::ConfirmEx(nsIDOMWindow *parent,
         break;
       case BUTTON_TITLE_DONT_SAVE:
         GetLocaleString("DontSave", getter_Copies(buttonTextStr));
-        // Celtx addition
+        // Drood addition
         block->SetInt(eDontSaveButton, i);
         break;
       case BUTTON_TITLE_REVERT:

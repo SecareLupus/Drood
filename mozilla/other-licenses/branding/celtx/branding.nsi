@@ -36,15 +36,15 @@
 
 # NSIS defines for nightly builds.
 # The release build branding.nsi is located in other-license/branding/firefox/
-!define BrandShortName        "Celtx"
-!define BrandFullName         "Celtx"
+!define BrandShortName        "Drood"
+!define BrandFullName         "Drood"
 # BrandFullNameInternal is used for some registry and file system values that
 # should not contain release that may be in the BrandFullName (e.g. Beta 1, etc.)
-!define BrandFullNameInternal "Celtx"
-!define CompanyName           "celtx.com"
-!define URLInfoAbout          "http://www.celtx.com/"
-!define URLUpdateInfo         "http://www.celtx.com/"
-!define SurveyURL             "http://www.celtx.com/"
+!define BrandFullNameInternal "Drood"
+!define CompanyName           "drood.com"
+!define URLInfoAbout          "http://www.drood.com/"
+!define URLUpdateInfo         "http://www.drood.com/"
+!define SurveyURL             "http://www.drood.com/"
 
 # Percentage of new "Standard" installs to enable talkback for
 !define RandomPercent         "0"

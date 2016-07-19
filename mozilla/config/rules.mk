@@ -450,7 +450,7 @@ ifdef SHARED_LIBRARY
 ifdef IS_COMPONENT
 EXTRA_DSO_LDOPTS	+= -bundle
 else
-# Celtx change
+# Drood change
 EXTRA_DSO_LDOPTS	+= -dynamiclib -install_name @executable_path/$(SHARED_LIBRARY) $(DARWIN_DYLIB_VERSIONS)
 endif
 endif

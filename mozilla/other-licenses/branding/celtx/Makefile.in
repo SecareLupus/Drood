@@ -25,7 +25,7 @@ BROWSER_APP_FILES = \
 	mozicon128.png \
 	mozicon16.xpm \
 	mozicon50.xpm \
-	celtx.ico \
+	drood.ico \
 	document.ico \
 	$(NULL)
 
@@ -39,7 +39,7 @@ ifneq (,$(filter gtk gtk2,$(MOZ_WIDGET_TOOLKIT)))
 	cp $(srcdir)/watermark.png $(DIST)/install/watermark.png
 endif
 ifneq (,$(filter mac cocoa,$(MOZ_WIDGET_TOOLKIT)))
-	cp $(srcdir)/celtx.icns  $(DIST)/branding/celtx.icns
+	cp $(srcdir)/drood.icns  $(DIST)/branding/drood.icns
 	cp $(srcdir)/document.icns $(DIST)/branding/document.icns
 	cp $(srcdir)/dsstore $(DIST)/branding/dsstore
 	cp $(srcdir)/background.png $(DIST)/branding/background.png
@@ -47,7 +47,7 @@ ifneq (,$(filter mac cocoa,$(MOZ_WIDGET_TOOLKIT)))
 	cp $(srcdir)/license.r $(DIST)/branding/license.r
 endif
 ifeq ($(OS_ARCH),WINNT)
-	cp $(srcdir)/celtx.ico  $(DIST)/branding/app.ico
+	cp $(srcdir)/drood.ico  $(DIST)/branding/app.ico
 	cp $(srcdir)/Header.bmp   $(DIST)/branding/Header.bmp
 	cp $(srcdir)/Watermrk.bmp $(DIST)/branding/Watermrk.bmp
 	cp $(srcdir)/branding.nsi     $(DIST)/branding/branding.nsi
@@ -62,8 +62,8 @@ ifeq ($(OS_ARCH),WINNT)
 	cp $(srcdir)/wizWatermark4.bmp $(DIST)/branding/wizWatermark4.bmp
 endif
 ifeq ($(OS_ARCH),OS2)
-	cp $(srcdir)/celtx-os2.ico  $(DIST)/branding/celtx.ico
-	cp $(srcdir)/celtx-os2.ico  $(DIST)/branding/app.ico
+	cp $(srcdir)/drood-os2.ico  $(DIST)/branding/drood.ico
+	cp $(srcdir)/drood-os2.ico  $(DIST)/branding/app.ico
 	cp $(srcdir)/document-os2.ico  $(DIST)/branding/document.ico
 	cp $(srcdir)/Header.bmp   $(DIST)/branding/Header.bmp
 	cp $(srcdir)/Watermrk.bmp $(DIST)/branding/Watermrk.bmp

@@ -1,4 +1,4 @@
-. $topsrcdir/celtx/config/mozconfig
+. $topsrcdir/drood/config/mozconfig
 
 mk_add_options MOZ_MAKE_FLAGS=-j4
 mk_add_options MOZ_OBJDIR=@TOPSRCDIR@/../debugdir

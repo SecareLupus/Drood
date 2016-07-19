@@ -1,0 +1,30 @@
+classic.jar:
+% skin drood classic/1.0 %skin/classic/drood/ os=WINNT osversion<6
+% skin drood classic/1.0 %skin/classic/drood/ os!=WINNT
+* skin/classic/drood/tabeditor.css    (tabeditor.css)
+  skin/classic/drood/tabeditor/alltabs-box-overflow-end-bkgnd-animate.png        (tabeditor/alltabs-box-overflow-end-bkgnd-animate.png)
+  skin/classic/drood/tabeditor/alltabs-box-overflow-start-bkgnd-animate.png      (tabeditor/alltabs-box-overflow-start-bkgnd-animate.png)
+  skin/classic/drood/tabeditor/tab-arrow-end.png                       (tabeditor/tab-arrow-end.png)
+  skin/classic/drood/tabeditor/tab-arrow-start.png                     (tabeditor/tab-arrow-start.png)
+  skin/classic/drood/tabeditor/tabbrowser-tabs-bkgnd.png               (tabeditor/tabbrowser-tabs-bkgnd.png)
+  skin/classic/drood/tabeditor/tabDragIndicator.png                    (tabeditor/tabDragIndicator.png)
+  skin/classic/drood/tabeditor/tab-bkgnd.png                           (tabeditor/tab-bkgnd.png)
+  skin/classic/drood/tabeditor/tab-active-bkgnd.png                    (tabeditor/tab-active-bkgnd.png)
+  skin/classic/drood/tabeditor/tab-hover-bkgnd.png                     (tabeditor/tab-hover-bkgnd.png)
+  skin/classic/drood/tabeditor/tabstrip-bottom.png                     (tabeditor/tabstrip-bottom.png)
+
+#ifdef XP_WIN
+classic.jar:
+% skin drood classic/1.0 %skin/classic/aero/drood/ os=WINNT osversion>=6
+* skin/classic/aero/drood/tabeditor.css                        (tabeditor.css)
+  skin/classic/aero/drood/tabeditor/alltabs-box-overflow-end-bkgnd-animate.png   (tabeditor/alltabs-box-overflow-end-bkgnd-animate.png)
+  skin/classic/aero/drood/tabeditor/alltabs-box-overflow-start-bkgnd-animate.png (tabeditor/alltabs-box-overflow-start-bkgnd-animate.png)
+  skin/classic/aero/drood/tabeditor/tab-arrow-end.png                  (tabeditor/tab-arrow-end-aero.png)
+  skin/classic/aero/drood/tabeditor/tab-arrow-start.png                (tabeditor/tab-arrow-start-aero.png)
+  skin/classic/aero/drood/tabeditor/tabbrowser-tabs-bkgnd.png          (tabeditor/tabbrowser-tabs-bkgnd.png)
+  skin/classic/aero/drood/tabeditor/tabDragIndicator.png               (tabeditor/tabDragIndicator-aero.png)
+  skin/classic/aero/drood/tabeditor/tab-bkgnd.png                      (tabeditor/tab-bkgnd.png)
+  skin/classic/aero/drood/tabeditor/tab-active-bkgnd.png               (tabeditor/tab-active-bkgnd.png)
+  skin/classic/aero/drood/tabeditor/tab-hover-bkgnd.png                (tabeditor/tab-hover-bkgnd.png)
+  skin/classic/aero/drood/tabeditor/tabstrip-bottom.png                (tabeditor/tabstrip-bottom.png)
+#endif

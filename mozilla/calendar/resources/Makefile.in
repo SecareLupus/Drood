@@ -41,7 +41,7 @@ VPATH		= @srcdir@
 
 include $(DEPTH)/config/autoconf.mk
 
-ifndef GF_CELTX
+ifndef GF_DROOD
 EXTRA_COMPONENTS = \
 	content/calendarService.js \
 	$(NULL)

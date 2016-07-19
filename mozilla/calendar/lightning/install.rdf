@@ -23,10 +23,10 @@
 
     <em:targetApplication>
       <Description>
-        <!-- celtx -->
-        <em:id>celtx@celtx.com</em:id>
-        <em:minVersion>@CELTX_VERSION@</em:minVersion>
-        <em:maxVersion>@CELTX_VERSION@</em:maxVersion>
+        <!-- drood -->
+        <em:id>drood@drood.com</em:id>
+        <em:minVersion>@DROOD_VERSION@</em:minVersion>
+        <em:maxVersion>@DROOD_VERSION@</em:maxVersion>
       </Description>
     </em:targetApplication>
 

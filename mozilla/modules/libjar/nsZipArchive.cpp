@@ -1279,8 +1279,8 @@ nsresult nsZipArchive::InflateItem(const nsZipItem* aItem, PRFileDesc* outFD)
   //-- if found no errors make sure we've converted the whole thing
 
   // Allow for reading less than the total size if it appears we've
-  // reached the end of the stream without error. It appears Celtx
-  // can produce a .celtx file where an entry appears to be padded
+  // reached the end of the stream without error. It appears Drood
+  // can produce a .drood file where an entry appears to be padded
   // with unnecessary data (size is 316752 bytes, but inflation
   // stops at 316749 bytes). It's still an error if we read more than
   // intended, or if the output doesn't match the expected size.

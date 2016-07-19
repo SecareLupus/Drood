@@ -152,7 +152,7 @@ FindNextNode(nsIDOMNode* aNode, nsIDOMNode* aRoot,
   if (next)
     return next;
 
-  // Celtx: Added a check here
+  // Drood: Added a check here
   if (aOnLeaveNode)
     aOnLeaveNode(aNode, aClosure);
 
@@ -163,7 +163,7 @@ FindNextNode(nsIDOMNode* aNode, nsIDOMNode* aRoot,
       return nsnull;
     aNode = next;
 
-    // Celtx: Moved the check from before GetParentNode to after
+    // Drood: Moved the check from before GetParentNode to after
     if (aOnLeaveNode)
       aOnLeaveNode(aNode, aClosure);
 
@@ -448,7 +448,7 @@ static PRBool IsBreakElement(nsIDOMViewCSS* aDocView, nsIDOMNode* aNode);
 // Find the previous node in the DOM tree in preorder. This isn't fast because
 // one call to GetPrevSibling can be O(N) in the number of siblings...
 /*
- * Celtx alteration: Traversing in pre-order means that if we descend
+ * Drood alteration: Traversing in pre-order means that if we descend
  * into a block, we miss it, so I've added a check to see if there was
  * a descent into a block. Here's a simple example:
  *

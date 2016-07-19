@@ -3116,7 +3116,7 @@ XRE_main(int argc, char* argv[], const nsXREAppData* aAppData)
             return 0;
           }
 
-// Suppress mismatch checking in Celtx
+// Suppress mismatch checking in Drood
 #if 0
           if (upgraded) {
             rv = em->CheckForMismatches(&needsRestart);

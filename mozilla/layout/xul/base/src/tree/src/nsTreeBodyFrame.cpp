@@ -4253,7 +4253,7 @@ nsTreeBodyFrame::ComputeDropPosition(nsGUIEvent* aEvent, PRInt32* aRow, PRInt16*
 #if 1
     // We want to allow DROP_ON events to pass through to all tree items
     // and leave it up to the CanDrop method to decide if they're valid
-    // or not. In Celtx, this is used to make Catalogs drop targets for
+    // or not. In Drood, this is used to make Catalogs drop targets for
     // items.
     isContainer = PR_TRUE;
 #endif

@@ -70,8 +70,8 @@ var gPluginsDS        = null;
 var gSearchDS         = null;
 var gAddonRepository  = null;
 var gShowGetAddonsPane = false;
-var gShowThemesPane    = false; // Added for Celtx
-var gShowPluginsPane   = false; // Added for Celtx
+var gShowThemesPane    = false; // Added for Drood
+var gShowPluginsPane   = false; // Added for Drood
 var gRetrievedResults = false;
 var gRecommendedAddons = null;
 var gRDF              = null;
@@ -92,11 +92,11 @@ const PREF_UPDATE_NOTIFYUSER                = "extensions.update.notifyUser";
 const PREF_GETADDONS_SHOWPANE               = "extensions.getAddons.showPane";
 const PREF_GETADDONS_REPOSITORY             = "extensions.getAddons.repository";
 const PREF_GETADDONS_MAXRESULTS             = "extensions.getAddons.maxResults";
-// Added for Celtx
+// Added for Drood
 const PREF_THEMES_SHOWPANE                  = "extensions.themes.showPane";
-// Added for Celtx
+// Added for Drood
 const PREF_PLUGINS_SHOWPANE                 = "extensions.plugins.showPane";
-// Added for Celtx
+// Added for Drood
 const PREF_EXTENSIONS_HIDE_UPDATES_BTN      = "extensions.hideUpdatesButton";
 
 const URI_GENERIC_ICON_XPINSTALL      = "chrome://mozapps/skin/xpinstall/xpinstallItemGeneric.png";
@@ -129,7 +129,7 @@ Components.utils.import("resource://gre/modules/DownloadUtils.jsm");
 ///////////////////////////////////////////////////////////////////////////////
 // Utility Functions
 /*
- * Added for Celtx.
+ * Added for Drood.
  */
 function openBrowser (url) {
   var ios = Components.classes["@mozilla.org/network/io-service;1"]
@@ -496,7 +496,7 @@ function showView(aView) {
   if (prefURL && !gShowGetAddonsPane) {
     try {
       // getMore.setAttribute("value", getMore.getAttribute("value" + aView));
-      // In Celtx, we changed it to a button
+      // In Drood, we changed it to a button
       getMore.setAttribute("label", getMore.getAttribute("value" + aView));
       var getMoreURL = Components.classes["@mozilla.org/toolkit/URLFormatterService;1"]
                                  .getService(Components.interfaces.nsIURLFormatter)
@@ -1094,11 +1094,11 @@ function Startup()
   try {
     gShowGetAddonsPane = gPref.getBoolPref(PREF_GETADDONS_SHOWPANE);
   } catch(e) { }
-  // Added for Celtx
+  // Added for Drood
   try {
     gShowThemesPane = gPref.getBoolPref(PREF_THEMES_SHOWPANE);
   } catch (e) { }
-  // Added for Celtx
+  // Added for Drood
   try {
     gShowPluginsPane = gPref.getBoolPref(PREF_PLUGINS_SHOWPANE);
   } catch (e) { }
@@ -1120,9 +1120,9 @@ function Startup()
   gExtensionsView.setAttribute("ref", RDFURI_ITEM_ROOT);
 
   document.getElementById("search-view").hidden = !gShowGetAddonsPane;
-  // Added for Celtx
+  // Added for Drood
   document.getElementById("themes-view").hidden = !gShowThemesPane;
-  // Added for Celtx
+  // Added for Drood
   document.getElementById("plugins-view").hidden = !gShowPluginsPane;
   updateOptionalViews();
 

@@ -816,7 +816,7 @@ nsWebShell::OnLinkClickSync(nsIContent *aContent,
         // need to hand this link click over to the external protocol handler.
         PRBool isExposed;
         nsresult rv = extProtService->IsExposedProtocol(scheme.get(), &isExposed);
-        // CELTX: http[s] links with _blank targets are external, not exposed
+        // DROOD: http[s] links with _blank targets are external, not exposed
         if (NS_SUCCEEDED(rv) && (!isExposed ||
             (scheme.Equals("http") || scheme.Equals("https")) &&
              NS_LITERAL_STRING("_blank").Equals(aTargetSpec))) {

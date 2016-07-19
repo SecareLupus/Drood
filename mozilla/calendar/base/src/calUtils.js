@@ -1177,7 +1177,7 @@ function isSunbird()
         var appInfo = Components.classes["@mozilla.org/xre/app-info;1"]
                                 .getService(Components.interfaces.nsIXULAppInfo);
         isSunbird.mIsSunbird = (appInfo.ID == "{718e30fb-e89b-41dd-9da7-e25a45638b28}") ||
-          (appInfo.ID == "celtx@celtx.com");
+          (appInfo.ID == "drood@drood.com");
     }
     return isSunbird.mIsSunbird;
 }

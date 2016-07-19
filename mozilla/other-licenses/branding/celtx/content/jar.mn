@@ -1,4 +1,4 @@
-celtx.jar:
+drood.jar:
 % content branding %content/branding/ xpcnativewrappers=yes
   content/branding/icon48.png                    (icon48.png)
   content/branding/icon64.png                    (icon64.png)

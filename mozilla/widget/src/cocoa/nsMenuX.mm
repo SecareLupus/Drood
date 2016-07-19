@@ -615,7 +615,7 @@ NS_IMETHODIMP nsMenuX::SetEnabled(PRBool aIsEnabled)
     // we always want to rebuild when this changes
     SetRebuild(PR_TRUE); 
     mIsEnabled = aIsEnabled;
-    // Celtx addition.
+    // Drood addition.
     if (mIsEnabled)
       [mNativeMenuItem setEnabled:YES];
     else

@@ -48,8 +48,8 @@
 %brandDTD;
 <!ENTITY % extensionsDTD SYSTEM "chrome://mozapps/locale/extensions/extensions.dtd">
 %extensionsDTD;
-<!ENTITY % celtxDTD SYSTEM "chrome://celtx/locale/celtx.dtd">
-%celtxDTD;
+<!ENTITY % droodDTD SYSTEM "chrome://drood/locale/drood.dtd">
+%droodDTD;
 ]>
 
 <window xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -260,12 +260,12 @@
               tooltiptextthemes="&cmd.checkUpdatesAllTheme.tooltip;"
               command="cmd_checkUpdatesAll"/>
       <spacer flex="1"/>
-      <!-- Celtx Alteration -->
+      <!-- Drood Alteration -->
       <button id="getMore"
               oncommand="openBrowser(this.getAttribute('getMoreURL'));"
-             valuethemes="&getCeltxTools.label;"
-             valueplugins="&getCeltxTools.label;"
-             valueextensions="&getCeltxTools.label;" />
+             valuethemes="&getDroodTools.label;"
+             valueplugins="&getDroodTools.label;"
+             valueextensions="&getDroodTools.label;" />
       <button id="continueDialogButton" label="&cmd.continue.label;"
               accesskey="&cmd.continue.accesskey;"
               tooltiptext="&cmd.continue.tooltip;"

@@ -1,0 +1,9 @@
+#filter substitution
+
+@AB_CD@.jar:
+% locale droodapp @AB_CD@ %locale/@AB_CD@/droodapp/
+    locale/@AB_CD@/droodapp/baseMenuOverlay.dtd       (@AB_CD@/chrome/drood/baseMenuOverlay.dtd)
+    locale/@AB_CD@/droodapp/browser.dtd               (@AB_CD@/chrome/drood/browser.dtd)
+% locale branding @AB_CD@ %locale/@AB_CD@/branding/
+    locale/@AB_CD@/branding/brand.dtd         (en-US/chrome/branding/brand.dtd)
+    locale/@AB_CD@/branding/brand.properties  (en-US/chrome/branding/brand.properties)

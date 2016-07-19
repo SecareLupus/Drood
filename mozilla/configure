@@ -5740,7 +5740,7 @@ esac
 
 MOZILLA_VERSION=`$PERL $srcdir/config/milestone.pl -topsrcdir $srcdir`
 
-CELTX_VERSION=`cat $topsrcdir/celtx/config/version.txt`
+DROOD_VERSION=`cat $topsrcdir/drood/config/version.txt`
 FIREFOX_VERSION=`cat $topsrcdir/browser/config/version.txt`
 THUNDERBIRD_VERSION=`cat $topsrcdir/mail/config/version.txt`
 SUNBIRD_VERSION=`cat $topsrcdir/calendar/sunbird/config/version.txt`
@@ -13642,9 +13642,9 @@ if test "${enable_official_branding+set}" = set; then
   enableval="$enable_official_branding"
   if test "$enableval" = "yes"; then
     case "$MOZ_BUILD_APP" in
-celtx)
-    MOZ_BRANDING_DIRECTORY=other-licenses/branding/celtx
-    MOZ_APP_DISPLAYNAME=Celtx
+drood)
+    MOZ_BRANDING_DIRECTORY=other-licenses/branding/drood
+    MOZ_APP_DISPLAYNAME=Drood
     ;;
 
 browser)
@@ -21644,7 +21644,7 @@ s%@XULRUNNER_STUB_NAME@%$XULRUNNER_STUB_NAME%g
 s%@MOZ_BUILD_APP@%$MOZ_BUILD_APP%g
 s%@MOZ_XUL_APP@%$MOZ_XUL_APP%g
 s%@MOZ_SUITE@%$MOZ_SUITE%g
-s%@GF_CELTX@%$GF_CELTX%g
+s%@GF_DROOD@%$GF_DROOD%g
 s%@MOZ_PHOENIX@%$MOZ_PHOENIX%g
 s%@MOZ_THUNDERBIRD@%$MOZ_THUNDERBIRD%g
 s%@MOZ_STANDALONE_COMPOSER@%$MOZ_STANDALONE_COMPOSER%g
@@ -21931,7 +21931,7 @@ s%@TARGET_DEVICE@%$TARGET_DEVICE%g
 s%@MOZ_APP_NAME@%$MOZ_APP_NAME%g
 s%@MOZ_APP_DISPLAYNAME@%$MOZ_APP_DISPLAYNAME%g
 s%@MOZ_APP_VERSION@%$MOZ_APP_VERSION%g
-s%@CELTX_VERSION@%$CELTX_VERSION%g
+s%@DROOD_VERSION@%$DROOD_VERSION%g
 s%@FIREFOX_VERSION@%$FIREFOX_VERSION%g
 s%@THUNDERBIRD_VERSION@%$THUNDERBIRD_VERSION%g
 s%@SUNBIRD_VERSION@%$SUNBIRD_VERSION%g

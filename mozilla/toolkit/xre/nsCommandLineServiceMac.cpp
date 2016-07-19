@@ -71,7 +71,7 @@
 #include "plstr.h"
 #include "prenv.h"
 
-// Celtx additions.
+// Drood additions.
 #include "nsICategoryManager.h"
 #include "nsIStringEnumerator.h"
 #include "nsIMacAppHelper.h"
@@ -365,7 +365,7 @@ OSErr nsMacCommandLine::HandleOpenOneDoc(const FSSpec& inFileSpec, OSType inFile
     return AddToCommandLine("-url", inFileSpec);
   }
 
-#ifndef GF_CELTX
+#ifndef GF_DROOD
   // Final case: we're not just starting up. How do we handle this?
   nsCAutoString specBuf;
   rv = NS_GetURLSpecFromFile(inFile, specBuf);
@@ -374,7 +374,7 @@ OSErr nsMacCommandLine::HandleOpenOneDoc(const FSSpec& inFileSpec, OSType inFile
   
   return OpenURL(specBuf.get());
 #else
-  // Here's how Celtx handles it. Pass it to our command line handler.
+  // Here's how Drood handles it. Pass it to our command line handler.
   nsCOMPtr<nsICategoryManager> catman =
     do_GetService("@mozilla.org/categorymanager;1");
   nsCOMPtr<nsISimpleEnumerator> catenum;

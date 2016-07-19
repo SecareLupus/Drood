@@ -704,7 +704,7 @@ XCODE_PRODUCT_DIR = build/$(BUILDSTYLE)
 else
 XCODE_PRODUCT_DIR = build
 endif # HAS_XCODE_2_1=1
-# Celtx change
+# Drood change
 DARWIN_DYLIB_VERSIONS = -compatibility_version 1 -current_version 1
 endif # OS_ARCH=Darwin
 
