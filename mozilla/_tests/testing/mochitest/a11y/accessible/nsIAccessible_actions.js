@@ -1,0 +1,1 @@
+../../../../../accessible/tests/mochitest/nsIAccessible_actions.js

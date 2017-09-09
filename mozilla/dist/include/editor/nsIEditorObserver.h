@@ -1,0 +1,1 @@
+../../../editor/idl/_xpidlgen/nsIEditorObserver.h

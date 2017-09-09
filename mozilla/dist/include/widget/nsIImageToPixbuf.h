@@ -1,0 +1,1 @@
+../../../widget/src/gtk2/nsIImageToPixbuf.h

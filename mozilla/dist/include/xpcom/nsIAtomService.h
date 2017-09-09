@@ -1,0 +1,1 @@
+../../../xpcom/ds/_xpidlgen/nsIAtomService.h

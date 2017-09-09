@@ -1,0 +1,1 @@
+../../../dom/public/idl/base/_xpidlgen/nsIDOMPluginArray.h

@@ -1,0 +1,1 @@
+../../../xpcom/ds/nsSupportsArray.h

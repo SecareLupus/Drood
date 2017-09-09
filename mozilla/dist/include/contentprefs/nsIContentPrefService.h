@@ -1,0 +1,1 @@
+../../../toolkit/components/contentprefs/public/_xpidlgen/nsIContentPrefService.h

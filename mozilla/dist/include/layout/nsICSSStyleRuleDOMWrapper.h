@@ -1,0 +1,1 @@
+../../../layout/style/nsICSSStyleRuleDOMWrapper.h

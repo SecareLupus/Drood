@@ -1,0 +1,1 @@
+../../../content/base/public/nsIXPathEvaluatorInternal.h

@@ -1,0 +1,1 @@
+../../../toolkit/components/downloads/public/_xpidlgen/nsIDownloadManager.h

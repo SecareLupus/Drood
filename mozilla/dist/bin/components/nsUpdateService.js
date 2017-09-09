@@ -1,0 +1,1 @@
+../../../toolkit/mozapps/update/src/nsUpdateService.js

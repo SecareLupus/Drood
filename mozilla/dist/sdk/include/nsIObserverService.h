@@ -1,0 +1,1 @@
+../../../xpcom/ds/_xpidlgen/nsIObserverService.h

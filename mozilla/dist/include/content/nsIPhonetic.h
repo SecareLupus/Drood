@@ -1,0 +1,1 @@
+../../../content/html/content/public/_xpidlgen/nsIPhonetic.h

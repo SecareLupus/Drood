@@ -1,0 +1,1 @@
+../../../toolkit/mozapps/handling/src/nsContentDispatchChooser.js

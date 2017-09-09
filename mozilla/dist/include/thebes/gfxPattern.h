@@ -1,0 +1,1 @@
+../../../gfx/thebes/public/gfxPattern.h

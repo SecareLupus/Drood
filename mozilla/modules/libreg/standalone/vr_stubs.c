@@ -1,0 +1,1 @@
+../standalone/../../../modules/libreg/src/vr_stubs.c

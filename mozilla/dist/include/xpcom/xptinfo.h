@@ -1,0 +1,1 @@
+../../../xpcom/reflect/xptinfo/public/xptinfo.h

@@ -1,0 +1,1 @@
+../../../xpcom/components/nsCategoryManagerUtils.h

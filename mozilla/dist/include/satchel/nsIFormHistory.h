@@ -1,0 +1,1 @@
+../../../toolkit/components/satchel/public/_xpidlgen/nsIFormHistory.h

@@ -1,0 +1,1 @@
+../../../../../../../../../dom/tests/mochitest/ajax/jquery/GPL-LICENSE.txt

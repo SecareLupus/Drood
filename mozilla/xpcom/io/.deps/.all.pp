@@ -1,0 +1,1 @@
+nsMultiplexInputStream.o nsFastLoadFile.o nsAppFileLocationProvider.o nsStorageStream.o nsSegmentedBuffer.o nsEscape.o nsPipe3.o nsLinebreakConverter.o nsUnicharInputStream.o nsLocalFileCommon.o nsFastLoadService.o SpecialSystemDirectory.o nsScriptableInputStream.o nsStreamUtils.o nsDirectoryService.o nsBinaryStream.o nsLocalFileUnix.o nsStringStream.o nsInputStreamTee.o: FORCE

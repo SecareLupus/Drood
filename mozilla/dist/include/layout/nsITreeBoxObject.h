@@ -1,0 +1,1 @@
+../../../layout/xul/base/src/tree/public/_xpidlgen/nsITreeBoxObject.h

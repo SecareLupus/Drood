@@ -1,0 +1,1 @@
+../../../../../../../../dom/tests/mochitest/chrome/domstorage_global.js

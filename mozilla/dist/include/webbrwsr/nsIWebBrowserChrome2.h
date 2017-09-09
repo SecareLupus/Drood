@@ -1,0 +1,1 @@
+../../../embedding/browser/webBrowser/_xpidlgen/nsIWebBrowserChrome2.h

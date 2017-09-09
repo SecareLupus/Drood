@@ -1,0 +1,1 @@
+nsPNGEncoder.o: FORCE

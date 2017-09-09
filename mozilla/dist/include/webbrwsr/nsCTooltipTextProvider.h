@@ -1,0 +1,1 @@
+../../../embedding/browser/webBrowser/nsCTooltipTextProvider.h

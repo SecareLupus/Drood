@@ -1,0 +1,1 @@
+../../../xpcom/base/nsStackWalk.h

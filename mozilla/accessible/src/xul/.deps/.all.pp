@@ -1,0 +1,1 @@
+nsXULSliderAccessible.o nsXULFormControlAccessible.o nsXULTreeAccessible.o nsXULColorPickerAccessible.o nsXULSelectAccessible.o nsXULMenuAccessible.o nsXULAlertAccessible.o nsXULTextAccessible.o nsXULTabAccessible.o: FORCE

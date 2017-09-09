@@ -1,0 +1,1 @@
+mozStorageModule.o: FORCE

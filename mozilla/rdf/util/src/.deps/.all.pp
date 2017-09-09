@@ -1,0 +1,1 @@
+nsRDFResource.o: FORCE

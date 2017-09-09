@@ -1,0 +1,1 @@
+../../../embedding/browser/webBrowser/_xpidlgen/nsIEmbeddingSiteWindow2.h

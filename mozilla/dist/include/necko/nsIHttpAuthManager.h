@@ -1,0 +1,1 @@
+../../../netwerk/protocol/http/public/_xpidlgen/nsIHttpAuthManager.h

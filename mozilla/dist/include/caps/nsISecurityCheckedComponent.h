@@ -1,0 +1,1 @@
+../../../caps/idl/_xpidlgen/nsISecurityCheckedComponent.h

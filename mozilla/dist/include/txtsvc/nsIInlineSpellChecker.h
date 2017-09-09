@@ -1,0 +1,1 @@
+../../../editor/txtsvc/public/_xpidlgen/nsIInlineSpellChecker.h

@@ -1,0 +1,1 @@
+../../../intl/chardet/public/nsICharsetDetectionObserver.h

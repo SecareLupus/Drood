@@ -1,0 +1,1 @@
+nsXBMDecoder.o: FORCE

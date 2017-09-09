@@ -1,0 +1,1 @@
+../../../../../../../../../../../../dom/tests/mochitest/ajax/prototype/test/unit/fixtures/empty.js

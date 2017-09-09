@@ -1,0 +1,1 @@
+../../../xpcom/build/nsXPCOM.h

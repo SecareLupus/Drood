@@ -1,0 +1,1 @@
+../../../../../../../../../../../dom/tests/mochitest/ajax/jquery/src/jquery/jquery.js

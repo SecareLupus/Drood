@@ -1,0 +1,1 @@
+../../../dom/public/idl/xul/_xpidlgen/nsIDOMXULContainerElement.h

@@ -1,0 +1,1 @@
+nsCharsetMenu.o: FORCE

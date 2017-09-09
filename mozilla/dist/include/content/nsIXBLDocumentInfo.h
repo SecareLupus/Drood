@@ -1,0 +1,1 @@
+../../../content/xbl/public/nsIXBLDocumentInfo.h

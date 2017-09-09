@@ -1,0 +1,1 @@
+../../../modules/plugin/base/public/nsDefaultPlugin.h

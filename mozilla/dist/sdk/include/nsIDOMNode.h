@@ -1,0 +1,1 @@
+../../../dom/public/idl/core/_xpidlgen/nsIDOMNode.h

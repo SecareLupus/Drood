@@ -1,0 +1,1 @@
+nsResProtocolHandler.o: FORCE

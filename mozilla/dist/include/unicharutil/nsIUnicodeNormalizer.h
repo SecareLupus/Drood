@@ -1,0 +1,1 @@
+../../../intl/unicharutil/idl/_xpidlgen/nsIUnicodeNormalizer.h

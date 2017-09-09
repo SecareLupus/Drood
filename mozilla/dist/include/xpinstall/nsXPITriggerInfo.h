@@ -1,0 +1,1 @@
+../../../xpinstall/src/nsXPITriggerInfo.h

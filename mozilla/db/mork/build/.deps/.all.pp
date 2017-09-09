@@ -1,0 +1,1 @@
+nsMorkFactory.o: FORCE

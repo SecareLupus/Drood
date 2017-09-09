@@ -1,0 +1,1 @@
+../../../dom/public/idl/canvas/_xpidlgen/nsIDOMCanvasRenderingContext2D.h

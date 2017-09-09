@@ -1,0 +1,1 @@
+../../../widget/src/gtkxtbin/gtk2xtbin.h

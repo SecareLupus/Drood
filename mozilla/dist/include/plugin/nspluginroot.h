@@ -1,0 +1,1 @@
+../../../modules/plugin/base/public/_xpidlgen/nspluginroot.h

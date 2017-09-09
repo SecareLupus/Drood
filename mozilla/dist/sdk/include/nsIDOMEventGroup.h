@@ -1,0 +1,1 @@
+../../../dom/public/idl/events/_xpidlgen/nsIDOMEventGroup.h

@@ -1,0 +1,1 @@
+../../../toolkit/components/urlformatter/public/_xpidlgen/nsIURLFormatter.h

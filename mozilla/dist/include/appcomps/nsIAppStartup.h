@@ -1,0 +1,1 @@
+../../../toolkit/components/startup/public/_xpidlgen/nsIAppStartup.h

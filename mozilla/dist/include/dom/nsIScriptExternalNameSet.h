@@ -1,0 +1,1 @@
+../../../dom/public/nsIScriptExternalNameSet.h

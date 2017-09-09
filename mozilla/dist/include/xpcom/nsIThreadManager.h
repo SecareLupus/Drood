@@ -1,0 +1,1 @@
+../../../xpcom/threads/_xpidlgen/nsIThreadManager.h

@@ -1,0 +1,1 @@
+../../../toolkit/components/passwordmgr/src/storage-Legacy.js

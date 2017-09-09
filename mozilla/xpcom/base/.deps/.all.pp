@@ -1,0 +1,1 @@
+nsMemoryImpl.o nsErrorService.o nsConsoleService.o nsDebugImpl.o nsVersionComparatorImpl.o nsCycleCollector.o nsSystemInfo.o nsTraceRefcntImpl.o nsExceptionService.o nsConsoleMessage.o nsInterfaceRequestorAgg.o nsUUIDGenerator.o nsMemoryReporterManager.o: FORCE

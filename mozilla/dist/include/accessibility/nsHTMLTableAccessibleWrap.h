@@ -1,0 +1,1 @@
+../../../accessible/src/atk/nsHTMLTableAccessibleWrap.h

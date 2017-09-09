@@ -1,0 +1,1 @@
+../../../content/base/public/_xpidlgen/nsIDOMFileException.h

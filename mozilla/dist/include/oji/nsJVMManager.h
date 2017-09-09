@@ -1,0 +1,1 @@
+../../../modules/oji/src/nsJVMManager.h

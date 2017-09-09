@@ -1,0 +1,1 @@
+../../../dom/public/idl/views/_xpidlgen/nsIDOMAbstractView.h

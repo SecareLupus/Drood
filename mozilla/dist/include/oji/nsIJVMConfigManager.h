@@ -1,0 +1,1 @@
+../../../modules/oji/public/_xpidlgen/nsIJVMConfigManager.h

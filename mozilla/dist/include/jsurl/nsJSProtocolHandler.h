@@ -1,0 +1,1 @@
+../../../dom/src/jsurl/nsJSProtocolHandler.h

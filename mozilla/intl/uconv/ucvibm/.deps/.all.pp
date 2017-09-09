@@ -1,0 +1,1 @@
+nsUnicodeToCP850.o nsCP862ToUnicode.o nsUnicodeToCP855.o nsCP857ToUnicode.o nsCP864ToUnicode.o nsUnicodeToCP857.o nsCP855ToUnicode.o nsCP850ToUnicode.o nsCP852ToUnicode.o nsUnicodeToCP864.o nsUnicodeToCP852.o nsCP864iToUnicode.o nsUnicodeToCP862.o nsUnicodeToCP864i.o: FORCE

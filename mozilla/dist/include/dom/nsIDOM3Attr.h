@@ -1,0 +1,1 @@
+../../../dom/public/idl/core/_xpidlgen/nsIDOM3Attr.h

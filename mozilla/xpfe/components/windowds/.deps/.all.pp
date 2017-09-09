@@ -1,0 +1,1 @@
+nsWindowDataSource.o: FORCE

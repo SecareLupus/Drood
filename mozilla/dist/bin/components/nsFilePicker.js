@@ -1,0 +1,1 @@
+../../../xpfe/components/filepicker/src/nsFilePicker.js

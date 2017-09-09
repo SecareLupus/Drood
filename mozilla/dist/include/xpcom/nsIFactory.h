@@ -1,0 +1,1 @@
+../../../xpcom/components/_xpidlgen/nsIFactory.h

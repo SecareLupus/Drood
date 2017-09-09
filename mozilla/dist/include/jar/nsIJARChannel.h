@@ -1,0 +1,1 @@
+../../../modules/libjar/_xpidlgen/nsIJARChannel.h

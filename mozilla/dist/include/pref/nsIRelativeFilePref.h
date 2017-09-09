@@ -1,0 +1,1 @@
+../../../modules/libpref/public/_xpidlgen/nsIRelativeFilePref.h

@@ -1,0 +1,1 @@
+nsWidgetSupport.o: FORCE

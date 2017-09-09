@@ -1,0 +1,1 @@
+../../../intl/uconv/public/nsIUnicodeEncoder.h

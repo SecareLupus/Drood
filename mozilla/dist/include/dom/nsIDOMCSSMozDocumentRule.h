@@ -1,0 +1,1 @@
+../../../dom/public/idl/css/_xpidlgen/nsIDOMCSSMozDocumentRule.h

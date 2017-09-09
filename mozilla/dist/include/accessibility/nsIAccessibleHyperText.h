@@ -1,0 +1,1 @@
+../../../accessible/public/_xpidlgen/nsIAccessibleHyperText.h

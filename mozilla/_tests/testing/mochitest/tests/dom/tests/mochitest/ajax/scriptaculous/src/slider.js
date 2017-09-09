@@ -1,0 +1,1 @@
+../../../../../../../../../../dom/tests/mochitest/ajax/scriptaculous/src/slider.js

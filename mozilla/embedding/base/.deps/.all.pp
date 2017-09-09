@@ -1,0 +1,1 @@
+nsEmbedAPI.o: FORCE

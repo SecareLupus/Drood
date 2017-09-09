@@ -1,0 +1,1 @@
+nsAutoCompleteMdbResult.o nsAutoCompleteSimpleResult.o nsAutoCompleteController.o: FORCE

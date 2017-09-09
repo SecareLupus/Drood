@@ -1,0 +1,1 @@
+nsDefaultURIFixup.o nsDocShell.o nsDocShellTransferableHooks.o nsDSURIContentListener.o nsDocShellEditorData.o nsDocShellLoadInfo.o nsGlobalHistory2Adapter.o nsDownloadHistory.o nsDocShellEnumerator.o nsWebNavigationInfo.o nsAboutRedirector.o nsGlobalHistoryAdapter.o nsWebShell.o: FORCE

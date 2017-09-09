@@ -1,0 +1,1 @@
+../../../xpcom/glue/nsClassHashtable.h

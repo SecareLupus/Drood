@@ -1,0 +1,1 @@
+../../../intl/uconv/idl/_xpidlgen/nsICurrentCharsetListener.h

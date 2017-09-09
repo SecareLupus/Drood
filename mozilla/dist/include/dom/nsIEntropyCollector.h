@@ -1,0 +1,1 @@
+../../../dom/public/_xpidlgen/nsIEntropyCollector.h

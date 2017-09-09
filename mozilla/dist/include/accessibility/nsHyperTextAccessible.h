@@ -1,0 +1,1 @@
+../../../accessible/src/html/nsHyperTextAccessible.h

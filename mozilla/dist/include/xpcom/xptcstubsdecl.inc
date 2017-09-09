@@ -1,0 +1,1 @@
+../../../xpcom/reflect/xptcall/public/xptcstubsdecl.inc

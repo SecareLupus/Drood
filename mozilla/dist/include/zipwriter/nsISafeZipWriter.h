@@ -1,0 +1,1 @@
+../../../modules/libjar/zipwriter/public/_xpidlgen/nsISafeZipWriter.h

@@ -1,0 +1,1 @@
+nsJSProtocolHandler.o: FORCE

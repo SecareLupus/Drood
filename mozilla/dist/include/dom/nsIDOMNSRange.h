@@ -1,0 +1,1 @@
+../../../dom/public/idl/range/_xpidlgen/nsIDOMNSRange.h

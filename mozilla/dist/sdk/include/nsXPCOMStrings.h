@@ -1,0 +1,1 @@
+../../../xpcom/string/public/nsXPCOMStrings.h

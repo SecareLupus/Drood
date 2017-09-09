@@ -1,0 +1,1 @@
+nsCache.o nsDiskCacheMap.o nsDiskCacheEntry.o nsDiskCacheBlockFile.o nsDiskCacheDeviceSQL.o nsDeleteDir.o nsDiskCacheDevice.o nsCacheMetaData.o nsCacheEntry.o nsDiskCacheBinding.o nsMemoryCacheDevice.o nsCacheService.o nsDiskCacheStreams.o nsCacheSession.o nsCacheEntryDescriptor.o: FORCE

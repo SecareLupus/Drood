@@ -1,0 +1,1 @@
+mozStorageValueArray.o mozStorageService.o mozStorageStatementWrapper.o mozStorageUnicodeFunctions.o mozStorageStatement.o mozStorageConnection.o: FORCE

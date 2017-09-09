@@ -1,0 +1,1 @@
+../../../../../../../../../toolkit/mozapps/downloads/tests/browser/browser_select_all.js

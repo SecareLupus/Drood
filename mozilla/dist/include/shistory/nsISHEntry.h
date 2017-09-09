@@ -1,0 +1,1 @@
+../../../docshell/shistory/public/_xpidlgen/nsISHEntry.h

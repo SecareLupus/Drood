@@ -1,0 +1,1 @@
+../../../xpcom/base/_xpidlgen/nsIVersionComparator.h

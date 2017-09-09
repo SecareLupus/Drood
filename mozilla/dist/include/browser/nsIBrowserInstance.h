@@ -1,0 +1,1 @@
+../../../xpfe/browser/public/_xpidlgen/nsIBrowserInstance.h

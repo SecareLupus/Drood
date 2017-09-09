@@ -1,0 +1,1 @@
+../../../xpcom/string/public/string-template-def-char.h

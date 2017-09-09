@@ -1,0 +1,1 @@
+../../../layout/base/nsIImageMap.h

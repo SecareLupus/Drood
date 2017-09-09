@@ -1,0 +1,1 @@
+../../../embedding/base/_xpidlgen/nsIWindowCreator2.h

@@ -1,0 +1,1 @@
+../../../gfx/public/nsIImage.h

@@ -1,0 +1,1 @@
+../../../profile/public/_xpidlgen/nsIProfile.h

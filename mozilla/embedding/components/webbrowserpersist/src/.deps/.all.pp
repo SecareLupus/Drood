@@ -1,0 +1,1 @@
+nsWebBrowserPersist.o: FORCE

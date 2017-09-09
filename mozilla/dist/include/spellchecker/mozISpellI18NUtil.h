@@ -1,0 +1,1 @@
+../../../extensions/spellcheck/idl/_xpidlgen/mozISpellI18NUtil.h

@@ -1,0 +1,1 @@
+../../../modules/libpref/public/_xpidlgen/nsIPrefBranch2.h

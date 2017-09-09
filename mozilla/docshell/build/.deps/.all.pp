@@ -1,0 +1,1 @@
+nsDocShellModule.o: FORCE

@@ -1,0 +1,1 @@
+nsEmbeddingModule.o: FORCE

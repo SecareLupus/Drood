@@ -1,0 +1,1 @@
+nsMathMLOperators.o: FORCE

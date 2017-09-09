@@ -1,0 +1,1 @@
+nsXPComStub.o: FORCE

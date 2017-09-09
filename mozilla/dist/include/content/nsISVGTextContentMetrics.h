@@ -1,0 +1,1 @@
+../../../content/svg/content/src/nsISVGTextContentMetrics.h

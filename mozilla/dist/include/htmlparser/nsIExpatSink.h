@@ -1,0 +1,1 @@
+../../../parser/htmlparser/public/_xpidlgen/nsIExpatSink.h

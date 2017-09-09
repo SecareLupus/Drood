@@ -1,0 +1,1 @@
+../../../intl/strres/public/_xpidlgen/nsIStringBundleOverride.h

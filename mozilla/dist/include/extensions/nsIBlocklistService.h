@@ -1,0 +1,1 @@
+../../../toolkit/mozapps/extensions/public/_xpidlgen/nsIBlocklistService.h

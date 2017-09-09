@@ -1,0 +1,1 @@
+../../../xpcom/glue/nsWeakReference.h

@@ -1,0 +1,1 @@
+../../../netwerk/protocol/res/public/_xpidlgen/nsIResProtocolHandler.h

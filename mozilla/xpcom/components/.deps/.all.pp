@@ -1,0 +1,1 @@
+nsServiceManagerObsolete.o nsCategoryManager.o nsNativeComponentLoader.o nsStaticComponentLoader.o nsComponentManager.o: FORCE

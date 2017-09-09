@@ -1,0 +1,1 @@
+../../../content/xml/document/public/_xpidlgen/nsIXPointer.h

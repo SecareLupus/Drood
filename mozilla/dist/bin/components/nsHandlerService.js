@@ -1,0 +1,1 @@
+../../../uriloader/exthandler/nsHandlerService.js

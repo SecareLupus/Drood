@@ -1,0 +1,1 @@
+nsAppStartupNotifier.o: FORCE

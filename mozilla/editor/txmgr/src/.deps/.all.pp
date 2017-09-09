@@ -1,0 +1,1 @@
+nsTransactionItem.o nsTransactionManagerFactory.o nsTransactionStack.o nsTransactionList.o nsTransactionManager.o: FORCE

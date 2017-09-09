@@ -1,0 +1,1 @@
+../../../js/src/xpconnect/loader/JSON.jsm

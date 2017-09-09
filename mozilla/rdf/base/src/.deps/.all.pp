@@ -1,0 +1,1 @@
+nsInMemoryDataSource.o nsRDFXMLParser.o nsDefaultResourceFactory.o rdfTriplesSerializer.o nsRDFXMLSerializer.o nsCompositeDataSource.o nsContainerEnumerator.o nsRDFService.o nsRDFXMLDataSource.o nsRDFContainerUtils.o rdfutil.o nsRDFContainer.o nsNameSpaceMap.o nsRDFContentSink.o: FORCE

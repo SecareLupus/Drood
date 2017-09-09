@@ -1,0 +1,1 @@
+../../../xpcom/ds/_xpidlgen/nsIWritablePropertyBag2.h

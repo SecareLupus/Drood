@@ -1,0 +1,1 @@
+../../../content/xul/templates/public/_xpidlgen/nsIXULSortService.h

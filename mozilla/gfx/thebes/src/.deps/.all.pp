@@ -1,0 +1,1 @@
+gfxImageSurface.o gfxFontMissingGlyphs.o gfxRect.o gfxXlibNativeRenderer.o gfxPDFSurface.o gfxPlatformGtk.o gfxASurface.o gfxPlatform.o gfxXlibSurface.o gfxTextRunWordCache.o gfxPath.o gfxSkipChars.o gfxFontUtils.o gfxFontconfigUtils.o gfxFontTest.o gfxFont.o gfxPSSurface.o gfxTextRunCache.o gfxPangoFonts.o gfxAlphaRecovery.o gfxContext.o gfxPattern.o gfxMatrix.o: FORCE

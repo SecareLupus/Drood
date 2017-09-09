@@ -1,0 +1,1 @@
+../../../content/html/document/public/_xpidlgen/nsIImageDocument.h

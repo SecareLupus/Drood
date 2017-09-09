@@ -1,0 +1,1 @@
+nsTableColFrame.o nsTableOuterFrame.o nsTableCellFrame.o FixedTableLayoutStrategy.o nsTableColGroupFrame.o BasicTableLayoutStrategy.o nsTableRowFrame.o nsTableRowGroupFrame.o nsTableFrame.o SpanningCellSorter.o nsTablePainter.o nsCellMap.o: FORCE

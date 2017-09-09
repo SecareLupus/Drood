@@ -1,0 +1,1 @@
+nsXBLPrototypeBinding.o nsXBLDocumentInfo.o nsXBLContentSink.o nsXBLInsertionPoint.o nsXBLEventHandler.o nsXBLWindowKeyHandler.o nsXBLProtoImplField.o nsXBLResourceLoader.o nsXBLProtoImplProperty.o nsXBLService.o nsBindingManager.o nsXBLBinding.o nsXBLProtoImplMethod.o nsXBLPrototypeResources.o nsXBLPrototypeHandler.o nsXBLProtoImpl.o: FORCE

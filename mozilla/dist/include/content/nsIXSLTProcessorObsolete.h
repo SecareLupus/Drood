@@ -1,0 +1,1 @@
+../../../content/xslt/public/_xpidlgen/nsIXSLTProcessorObsolete.h

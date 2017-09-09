@@ -1,0 +1,1 @@
+../../../content/xtf/public/_xpidlgen/nsIXTFElementWrapper.h

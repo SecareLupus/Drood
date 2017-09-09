@@ -1,0 +1,1 @@
+nsHTMLFormControlAccessible.o nsHTMLImageAccessible.o nsHTMLLinkAccessible.o nsHTMLTextAccessible.o nsHTMLTableAccessible.o nsHTMLAreaAccessible.o nsHTMLSelectAccessible.o nsHyperTextAccessible.o: FORCE

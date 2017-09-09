@@ -1,0 +1,1 @@
+../../../xpcom/ds/_xpidlgen/nsIPersistentProperties2.h

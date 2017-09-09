@@ -1,0 +1,1 @@
+../../../toolkit/components/startup/src/nsTryToClose.js

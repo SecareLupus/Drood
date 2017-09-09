@@ -1,0 +1,1 @@
+nsImageModule.o: FORCE

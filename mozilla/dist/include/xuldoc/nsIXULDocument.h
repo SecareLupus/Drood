@@ -1,0 +1,1 @@
+../../../content/xul/document/public/nsIXULDocument.h

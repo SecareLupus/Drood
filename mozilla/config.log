@@ -1,0 +1,834 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:1002: checking host system type
+configure:1023: checking target system type
+configure:1041: checking build system type
+configure:1121: checking for mawk
+configure:2154: checking for gcc
+configure:2267: checking whether the C compiler (gcc  ) works
+configure:2283: gcc -o conftest    conftest.c  1>&5
+configure:2280:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^~~~
+configure:2309: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:2314: checking whether we are using GNU C
+configure:2323: gcc -E conftest.c
+configure:2342: checking whether gcc accepts -g
+configure:2378: checking for c++
+configure:2410: checking whether the C++ compiler (c++  ) works
+configure:2426: c++ -o conftest    conftest.C  1>&5
+configure:2452: checking whether the C++ compiler (c++  ) is a cross-compiler
+configure:2457: checking whether we are using GNU C++
+configure:2466: c++ -E conftest.C
+configure:2485: checking whether c++ accepts -g
+configure:2519: checking for ranlib
+configure:2551: checking for as
+configure:2592: checking for ar
+configure:2627: checking for ld
+configure:2662: checking for strip
+configure:2697: checking for windres
+configure:3111: checking whether gcc and cc understand -c and -o together
+configure:3126: gcc -c conftest.c -o conftest.o 1>&5
+conftest.c:1:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ foo(){}
+ ^~~
+configure:3127: gcc -c conftest.c -o conftest.o 1>&5
+conftest.c:1:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ foo(){}
+ ^~~
+configure:3132: cc -c conftest.c 1>&5
+conftest.c:1:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ foo(){}
+ ^~~
+configure:3134: cc -c conftest.c -o conftest.o 1>&5
+conftest.c:1:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ foo(){}
+ ^~~
+configure:3135: cc -c conftest.c -o conftest.o 1>&5
+conftest.c:1:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ foo(){}
+ ^~~
+configure:3171: checking how to run the C preprocessor
+configure:3192: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:3251: checking how to run the C++ preprocessor
+configure:3269: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:3324: checking for a BSD compatible install
+configure:3377: checking whether ln -s works
+configure:3402: checking for perl5
+configure:3402: checking for perl
+configure:3443: checking for minimum required perl version >= 5.006
+configure:3454: checking for full perl installation
+configure:3469: checking for python
+configure:3514: checking for nsinstall
+configure:3559: checking for doxygen
+configure:3595: checking for whoami
+configure:3631: checking for autoconf
+configure:3667: checking for unzip
+configure:3705: checking for zip
+configure:3746: checking for makedepend
+configure:3781: checking for xargs
+configure:4104: checking for gmake
+configure:4104: checking for make
+configure:4172: checking for X
+configure:4239: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4315: gcc -o conftest    conftest.c -lXt  1>&5
+configure: In function 'main':
+configure:4311:1: warning: implicit declaration of function 'XtMalloc' [-Wimplicit-function-declaration]
+ ${x_direct_test_function}()
+ ^~~~~~~~
+configure:4486: checking for dnet_ntoa in -ldnet
+configure:4505: gcc -o conftest    conftest.c -ldnet   1>&5
+/usr/bin/ld: cannot find -ldnet
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 4494 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char dnet_ntoa();
+
+int main() {
+dnet_ntoa()
+; return 0; }
+configure:4527: checking for dnet_ntoa in -ldnet_stub
+configure:4546: gcc -o conftest    conftest.c -ldnet_stub   1>&5
+/usr/bin/ld: cannot find -ldnet_stub
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 4535 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char dnet_ntoa();
+
+int main() {
+dnet_ntoa()
+; return 0; }
+configure:4575: checking for gethostbyname
+configure:4603: gcc -o conftest    conftest.c  1>&5
+configure:4673: checking for connect
+configure:4701: gcc -o conftest    conftest.c  1>&5
+configure:4765: checking for remove
+configure:4793: gcc -o conftest    conftest.c  1>&5
+configure:4857: checking for shmat
+configure:4885: gcc -o conftest    conftest.c  1>&5
+configure:4958: checking for IceConnectionNumber in -lICE
+configure:4977: gcc -o conftest    conftest.c -lICE   1>&5
+configure:5445: checking whether ld has archive extraction flags
+configure:5469: gcc -o conftest  -fno-strict-aliasing   -Wl,--whole-archive conftest.c -Wl,--no-whole-archive 1>&5
+configure:5502: checking that static assertion macros used in autoconf tests work
+configure:5523: gcc -c  -fno-strict-aliasing   conftest.c 1>&5
+configure:5540: gcc -c  -fno-strict-aliasing   conftest.c 1>&5
+configure: In function 'main':
+configure:5537:68: error: size of array 'static_assert_line_5540' is negative
+ ; return 0; }
+                                                                    ^
+configure:5536:55: note: in expansion of macro 'CONFIGURE_STATIC_ASSERT_IMPL2'
+ CONFIGURE_STATIC_ASSERT(0)
+                                                       ^                            
+configure:5535:44: note: in expansion of macro 'CONFIGURE_STATIC_ASSERT_IMPL'
+ int main() {
+                                            ^                           
+configure:5540:1: note: in expansion of macro 'CONFIGURE_STATIC_ASSERT'
+   rm -rf conftest*
+ ^ ~~~~~~~~~~~~~~~~     
+configure: failed program was:
+#line 5533 "configure"
+#include "confdefs.h"
+
+#define CONFIGURE_STATIC_ASSERT(condition) CONFIGURE_STATIC_ASSERT_IMPL(condition, __LINE__)
+#define CONFIGURE_STATIC_ASSERT_IMPL(condition, line) CONFIGURE_STATIC_ASSERT_IMPL2(condition, line)
+#define CONFIGURE_STATIC_ASSERT_IMPL2(condition, line) typedef int static_assert_line_##line[(condition) ? 1 : -1]
+
+int main() {
+CONFIGURE_STATIC_ASSERT(0)
+; return 0; }
+configure:5563: c++ -c  -fno-strict-aliasing   conftest.C 1>&5
+configure:5580: c++ -c  -fno-strict-aliasing   conftest.C 1>&5
+configure: In function 'int main()':
+configure:5577:114: error: size of array 'static_assert_line_5580' is negative
+ ; return 0; }
+                                                                                                                  ^
+configure:5576:55: note: in expansion of macro 'CONFIGURE_STATIC_ASSERT_IMPL2'
+ CONFIGURE_STATIC_ASSERT(0)
+                                                       ^                            
+configure:5575:44: note: in expansion of macro 'CONFIGURE_STATIC_ASSERT_IMPL'
+ int main() {
+                                            ^                           
+configure:5580:1: note: in expansion of macro 'CONFIGURE_STATIC_ASSERT'
+   rm -rf conftest*
+ ^ ~~~~~~~~~~~~~~~~     
+configure: failed program was:
+#line 5573 "configure"
+#include "confdefs.h"
+
+#define CONFIGURE_STATIC_ASSERT(condition) CONFIGURE_STATIC_ASSERT_IMPL(condition, __LINE__)
+#define CONFIGURE_STATIC_ASSERT_IMPL(condition, line) CONFIGURE_STATIC_ASSERT_IMPL2(condition, line)
+#define CONFIGURE_STATIC_ASSERT_IMPL2(condition, line) typedef int static_assert_line_##line[(condition) ? 1 : -1]
+
+int main() {
+CONFIGURE_STATIC_ASSERT(0)
+; return 0; }
+configure:5615: checking for 64-bit OS
+configure:5624: gcc -c  -fno-strict-aliasing   conftest.c 1>&5
+configure:7268: checking for ANSI C header files
+configure:7281: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:7348: gcc -o conftest  -fno-strict-aliasing    conftest.c  1>&5
+configure: In function 'main':
+configure:7343:67: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+ if { (eval echo configure:7348: \"$ac_link\") 1>&5; (eval $ac_link) 2>&5; } && test -s conftest${ac_exeext} && (./conftest; exit) 2>/dev/null
+                                                                   ^~~~
+configure:7343:67: warning: incompatible implicit declaration of built-in function 'exit'
+configure:7343:67: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:7344:1: warning: incompatible implicit declaration of built-in function 'exit'
+ then
+ ^~~~
+configure:7344:1: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:7372: checking for working const
+configure:7426: gcc -c  -fno-strict-aliasing   conftest.c 1>&5
+configure:7447: checking for mode_t
+configure:7480: checking for off_t
+configure:7513: checking for pid_t
+configure:7546: checking for size_t
+configure:7579: checking for st_blksize in struct stat
+configure:7592: gcc -c  -fno-strict-aliasing   conftest.c 1>&5
+configure:7613: checking for siginfo_t
+configure:7626: gcc -c  -fno-strict-aliasing   conftest.c 1>&5
+configure:7660: checking for int16_t
+configure:7673: gcc -c  -fno-strict-aliasing   conftest.c 1>&5
+configure:7695: checking for int32_t
+configure:7708: gcc -c  -fno-strict-aliasing   conftest.c 1>&5
+configure:7730: checking for int64_t
+configure:7743: gcc -c  -fno-strict-aliasing   conftest.c 1>&5
+configure:7765: checking for int64
+configure:7778: gcc -c  -fno-strict-aliasing   conftest.c 1>&5
+configure: In function 'main':
+configure:7774:1: error: unknown type name 'int64'
+   rm -rf conftest*
+ ^ ~~~
+configure: failed program was:
+#line 7770 "configure"
+#include "confdefs.h"
+#include <stdio.h>
+                  #include <sys/types.h>
+int main() {
+int64 foo = 0;
+; return 0; }
+configure:7800: checking for uint
+configure:7813: gcc -c  -fno-strict-aliasing   conftest.c 1>&5
+configure:7835: checking for uint_t
+configure:7848: gcc -c  -fno-strict-aliasing   conftest.c 1>&5
+configure: In function 'main':
+configure:7844:1: error: unknown type name 'uint_t'
+   rm -rf conftest*
+ ^ ~~~~
+configure: failed program was:
+#line 7840 "configure"
+#include "confdefs.h"
+#include <stdio.h>
+                  #include <sys/types.h>
+int main() {
+uint_t foo = 0;
+; return 0; }
+configure:7870: checking for uint16_t
+configure:7883: gcc -c  -fno-strict-aliasing   conftest.c 1>&5
+configure: In function 'main':
+configure:7879:1: error: unknown type name 'uint16_t'
+   rm -rf conftest*
+ ^ ~~~~~~
+configure: failed program was:
+#line 7875 "configure"
+#include "confdefs.h"
+#include <stdio.h>
+                  #include <sys/types.h>
+int main() {
+uint16_t foo = 0;
+; return 0; }
+configure:7914: checking for uname.domainname
+configure:7927: c++ -c  -fno-strict-aliasing   conftest.C 1>&5
+configure:7951: checking for uname.__domainname
+configure:7964: c++ -c  -fno-strict-aliasing   conftest.C 1>&5
+configure: In function 'int main()':
+configure:7960:62: error: 'struct utsname' has no member named '__domainname'; did you mean 'domainname'?
+   rm -rf conftest*
+                                                              ^           
+configure: failed program was:
+#line 7956 "configure"
+#include "confdefs.h"
+#include <sys/utsname.h>
+int main() {
+ struct utsname *res; char *domain; 
+            (void)uname(res);  if (res != 0) { domain = res->__domainname; } 
+; return 0; }
+configure:7997: checking for usable wchar_t (2 bytes, unsigned)
+configure:8011: gcc -c  -fno-strict-aliasing   conftest.c 1>&5
+configure: In function 'main':
+configure:8007:68: error: size of array 'static_assert_line_8010' is negative
+   rm -rf conftest*
+                                                                    ^
+configure:8006:55: note: in expansion of macro 'CONFIGURE_STATIC_ASSERT_IMPL2'
+ if { (eval echo configure:8011: \"$ac_compile\") 1>&5; (eval $ac_compile) 2>&5; }; then
+                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+configure:8005:44: note: in expansion of macro 'CONFIGURE_STATIC_ASSERT_IMPL'
+ EOF
+                                            ^                           
+configure:8010:1: note: in expansion of macro 'CONFIGURE_STATIC_ASSERT'
+   echo "configure: failed program was:" >&5
+ ^ ~~~~~~~~~~~~~~~~~~~~~
+configure:8007:68: error: size of array 'static_assert_line_8011' is negative
+   rm -rf conftest*
+                                                                    ^
+configure:8006:55: note: in expansion of macro 'CONFIGURE_STATIC_ASSERT_IMPL2'
+ if { (eval echo configure:8011: \"$ac_compile\") 1>&5; (eval $ac_compile) 2>&5; }; then
+                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+configure:8005:44: note: in expansion of macro 'CONFIGURE_STATIC_ASSERT_IMPL'
+ EOF
+                                            ^                           
+configure:8011:22: note: in expansion of macro 'CONFIGURE_STATIC_ASSERT'
+   cat conftest.$ac_ext >&5
+                      ^~~~~                  
+configure: failed program was:
+#line 8002 "configure"
+#include "confdefs.h"
+#include <stddef.h>
+                     
+#define CONFIGURE_STATIC_ASSERT(condition) CONFIGURE_STATIC_ASSERT_IMPL(condition, __LINE__)
+#define CONFIGURE_STATIC_ASSERT_IMPL(condition, line) CONFIGURE_STATIC_ASSERT_IMPL2(condition, line)
+#define CONFIGURE_STATIC_ASSERT_IMPL2(condition, line) typedef int static_assert_line_##line[(condition) ? 1 : -1]
+
+int main() {
+CONFIGURE_STATIC_ASSERT(sizeof(wchar_t) == 2);
+                     CONFIGURE_STATIC_ASSERT((wchar_t)-1 > (wchar_t) 0)
+; return 0; }
+configure:8044: checking for compiler -fshort-wchar option
+configure:8058: c++ -c  -fno-strict-aliasing -fshort-wchar   conftest.C 1>&5
+configure:8092: checking for visibility(hidden) attribute
+configure:8117: checking for visibility(default) attribute
+configure:8142: checking for visibility pragma support
+configure:8167: checking For gcc visibility bug with class-level attributes (GCC bug 26905)
+configure:8195: checking For x86_64 gcc visibility bug with builtins (GCC bug 20297)
+configure:8243: checking for dirent.h that defines DIR
+configure:8256: gcc -c  -fno-strict-aliasing   conftest.c 1>&5
+configure:8281: checking for opendir in -ldir
+configure:8300: gcc -o conftest  -fno-strict-aliasing    conftest.c -ldir   1>&5
+/usr/bin/ld: cannot find -ldir
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 8289 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char opendir();
+
+int main() {
+opendir()
+; return 0; }
+configure:8373: checking for sys/byteorder.h
+configure:8383: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8379:27: fatal error: sys/byteorder.h: No such file or directory
+ ac_err=`grep -v '^ *+' conftest.out | grep -v "^conftest.${ac_ext}\$"`
+                           ^
+compilation terminated.
+configure: failed program was:
+#line 8378 "configure"
+#include "confdefs.h"
+#include <sys/byteorder.h>
+configure:8373: checking for compat.h
+configure:8383: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8379:20: fatal error: compat.h: No such file or directory
+ ac_err=`grep -v '^ *+' conftest.out | grep -v "^conftest.${ac_ext}\$"`
+                    ^
+compilation terminated.
+configure: failed program was:
+#line 8378 "configure"
+#include "confdefs.h"
+#include <compat.h>
+configure:8373: checking for getopt.h
+configure:8383: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8413: checking for sys/bitypes.h
+configure:8423: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8413: checking for memory.h
+configure:8423: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8413: checking for unistd.h
+configure:8423: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8453: checking for gnu/libc-version.h
+configure:8463: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8453: checking for nl_types.h
+configure:8463: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8493: checking for malloc.h
+configure:8503: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8533: checking for X11/XKBlib.h
+configure:8543: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8574: checking for sys/statvfs.h
+configure:8584: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8574: checking for sys/statfs.h
+configure:8584: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8574: checking for sys/vfs.h
+configure:8584: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8574: checking for sys/mount.h
+configure:8584: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8615: checking for mmintrin.h
+configure:8625: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8662: checking for new
+configure:8672: c++ -E   conftest.C >/dev/null 2>conftest.out
+configure:8764: checking for sys/cdefs.h
+configure:8774: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8808: checking for gethostbyname_r in -lc_r
+configure:8827: gcc -o conftest  -fno-strict-aliasing    conftest.c -lc_r   1>&5
+/usr/bin/ld: cannot find -lc_r
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 8816 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char gethostbyname_r();
+
+int main() {
+gethostbyname_r()
+; return 0; }
+configure:8864: checking for atan in -lm
+configure:8883: gcc -o conftest  -fno-strict-aliasing    conftest.c -lm   1>&5
+configure:8876:6: warning: conflicting types for built-in function 'atan'
+ ; return 0; }
+      ^~~~
+configure:8911: checking for dlopen in -ldl
+configure:8930: gcc -o conftest  -fno-strict-aliasing    conftest.c -ldl  -lm  1>&5
+configure:8947: checking for dlfcn.h
+configure:8957: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8994: checking for dladdr
+configure:9022: gcc -o conftest  -fno-strict-aliasing -D_GNU_SOURCE    conftest.c -ldl -lm  1>&5
+configure:9152: checking for socket in -lsocket
+configure:9171: gcc -o conftest  -fno-strict-aliasing    conftest.c -lsocket  -ldl -lm  1>&5
+/usr/bin/ld: cannot find -lsocket
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 9160 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char socket();
+
+int main() {
+socket()
+; return 0; }
+configure:9216: checking for XDrawLines in -lX11
+configure:9235: gcc -o conftest  -fno-strict-aliasing     conftest.c -lX11 -lX11  -ldl -lm  1>&5
+configure:9257: checking for XextAddDisplay in -lXext
+configure:9276: gcc -o conftest  -fno-strict-aliasing     conftest.c -lXext -lX11  -ldl -lm  1>&5
+configure:9300: checking for XtFree in -lXt
+configure:9319: gcc -o conftest  -fno-strict-aliasing     conftest.c -lXt  -ldl -lm  1>&5
+configure:9473: checking for XShmCreateImage in -lXext
+configure:9492: gcc -o conftest  -fno-strict-aliasing     conftest.c -lXext -lX11  -lXext -ldl -lm  1>&5
+configure:9514: checking for X11/extensions/XShm.h
+configure:9524: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:9554: checking for XieFloGeometry in -lXIE
+configure:9573: gcc -o conftest  -fno-strict-aliasing     conftest.c -lXIE -lX11  -lXext -ldl -lm  1>&5
+/usr/bin/ld: cannot find -lXIE
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 9562 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char XieFloGeometry();
+
+int main() {
+XieFloGeometry()
+; return 0; }
+configure:9595: checking for X11/extensions/XIElib.h
+configure:9605: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:9601:35: fatal error: X11/extensions/XIElib.h: No such file or directory
+ ac_err=`grep -v '^ *+' conftest.out | grep -v "^conftest.${ac_ext}\$"`
+                                   ^
+compilation terminated.
+configure: failed program was:
+#line 9600 "configure"
+#include "confdefs.h"
+#include <X11/extensions/XIElib.h>
+configure:9679: checking for freetype-config
+configure:9715: checking for FreeType - version >= 6.1.0
+configure:9789: gcc -o conftest  -fno-strict-aliasing -I/usr/include/freetype2    conftest.c -lfreetype -ldl -lm  1>&5
+configure:9839: checking for FT_Bitmap_Size.y_ppem
+configure:9854: gcc -c  -fno-strict-aliasing -I/usr/include/freetype2   conftest.c 1>&5
+configure:9880: checking for FT_GlyphSlot_Embolden
+configure:9908: gcc -o conftest  -fno-strict-aliasing -I/usr/include/freetype2    conftest.c -ldl -lm  -lfreetype 1>&5
+configure:9880: checking for FT_Load_Sfnt_Table
+configure:9908: gcc -o conftest  -fno-strict-aliasing -I/usr/include/freetype2    conftest.c -ldl -lm  -lfreetype 1>&5
+configure:9880: checking for FT_Select_Size
+configure:9908: gcc -o conftest  -fno-strict-aliasing -I/usr/include/freetype2    conftest.c -ldl -lm  -lfreetype 1>&5
+configure:9951: checking for pthread_create in -lpthreads
+gcc -o dummy dummy.c  -fno-strict-aliasing   -lpthreads  -ldl -lm 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+configure:9974: checking for pthread_create in -lpthread
+gcc -o dummy dummy.c  -fno-strict-aliasing   -lpthread  -ldl -lm 
+configure:10079: checking whether gcc accepts -pthread
+configure:10197: checking whether mmap() sees write()s
+configure:10240: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure:10265: checking whether gcc needs -traditional
+configure:10311: checking for 8-bit clean memcmp
+configure:10329: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure:10321:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ }
+ ^   
+configure: In function 'main':
+configure:10324:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+ if { (eval echo configure:10329: \"$ac_link\") 1>&5; (eval $ac_link) 2>&5; } && test -s conftest${ac_exeext} && (./conftest; exit) 2>/dev/null
+   ^~~~
+configure:10324:3: warning: incompatible implicit declaration of built-in function 'exit'
+configure:10324:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:10324:8: warning: implicit declaration of function 'memcmp' [-Wimplicit-function-declaration]
+ if { (eval echo configure:10329: \"$ac_link\") 1>&5; (eval $ac_link) 2>&5; } && test -s conftest${ac_exeext} && (./conftest; exit) 2>/dev/null
+        ^~~~~~
+configure:10349: checking for random
+configure:10377: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure:10349: checking for strerror
+configure:10377: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure:10349: checking for lchown
+configure:10377: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure:10349: checking for fchmod
+configure:10377: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure:10349: checking for snprintf
+configure:10377: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure:10361:6: warning: conflicting types for built-in function 'snprintf'
+ /* The GNU C library defines this for functions which it implements
+      ^~~~~~~~
+configure:10349: checking for statvfs
+configure:10377: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure:10349: checking for memmove
+configure:10377: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure:10361:6: warning: conflicting types for built-in function 'memmove'
+ /* The GNU C library defines this for functions which it implements
+      ^~~~~~~
+configure:10349: checking for rint
+configure:10377: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure:10361:6: warning: conflicting types for built-in function 'rint'
+ /* The GNU C library defines this for functions which it implements
+      ^~~~
+configure:10349: checking for stat64
+configure:10377: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure:10349: checking for lstat64
+configure:10377: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure:10349: checking for truncate64
+configure:10377: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure:10349: checking for statvfs64
+configure:10377: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure:10404: checking for flockfile
+configure:10432: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure:10404: checking for getpagesize
+configure:10432: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure:10461: checking for localtime_r
+configure:10489: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure:10461: checking for strtok_r
+configure:10489: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure:10525: checking for wcrtomb
+configure:10537: c++ -o conftest  -fno-strict-aliasing -fshort-wchar -pthread   -lpthread  conftest.C -ldl -lm  1>&5
+configure:10557: checking for mbrtowc
+configure:10569: c++ -o conftest  -fno-strict-aliasing -fshort-wchar -pthread   -lpthread  conftest.C -ldl -lm  1>&5
+configure:10598: checking for res_ninit()
+configure:10615: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+In file included from /usr/include/x86_64-linux-gnu/sys/types.h:25:0,
+                 from /usr/include/resolv.h:56,
+                 from configure:10608:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+configure:10645: checking for gnu_get_libc_version()
+configure:10661: c++ -o conftest  -fno-strict-aliasing -fshort-wchar -pthread   -lpthread  conftest.C -ldl -lm  1>&5
+configure:10690: checking for iconv in -lc
+configure:10712: c++ -o conftest  -fno-strict-aliasing -fshort-wchar -pthread   -lpthread  conftest.C -lc  -ldl -lm  1>&5
+configure:10821: checking for iconv()
+configure:10840: c++ -o conftest  -fno-strict-aliasing -fshort-wchar -pthread   -lpthread  conftest.C -ldl -lm   1>&5
+configure:10864: checking for iconv() with const input
+configure:10884: c++ -c  -fno-strict-aliasing -fshort-wchar -pthread   conftest.C 1>&5
+configure: In function 'int main()':
+configure:10878:26: error: invalid conversion from 'const char**' to 'char**' [-fpermissive]
+ EOF
+                          ^     
+In file included from configure:10872:0:
+/usr/include/iconv.h:42:15: note:   initializing argument 2 of 'size_t iconv(iconv_t, char**, size_t*, char**, size_t*)'
+ extern size_t iconv (iconv_t __cd, char **__restrict __inbuf,
+               ^~~~~
+configure: failed program was:
+#line 10869 "configure"
+#include "confdefs.h"
+
+            #include <stdlib.h>
+            #include <iconv.h>
+            
+int main() {
+
+                const char *input = "testing";
+                iconv_t h = iconv_open("", "");
+                iconv(h, &input, NULL, NULL, NULL);
+                iconv_close(h);
+            
+; return 0; }
+configure:10913: checking for nl_langinfo and CODESET
+configure:10925: c++ -o conftest  -fno-strict-aliasing -fshort-wchar -pthread   -lpthread  conftest.C -ldl -lm  1>&5
+configure:10957: checking for an implementation of va_copy()
+configure:10981: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure: In function 'f':
+configure:10975:17: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+ EOF
+                 ^   
+configure:10975:17: warning: incompatible implicit declaration of built-in function 'exit'
+configure:10975:17: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:10998: checking for an implementation of __va_copy()
+configure:11022: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure: In function 'f':
+configure:11016:17: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+ EOF
+                 ^   
+configure:11016:17: warning: incompatible implicit declaration of built-in function 'exit'
+configure:11016:17: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:11039: checking whether va_lists can be copied by value
+configure:11063: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure: In function 'f':
+configure:11055:19: error: assignment to expression with array type
+         }
+                   ^
+configure:11057:17: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+ EOF
+                 ^   
+configure:11057:17: warning: incompatible implicit declaration of built-in function 'exit'
+configure:11057:17: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure: failed program was:
+#line 11049 "configure"
+#include "confdefs.h"
+
+        #include <stdarg.h>
+        void f (int i, ...) {
+            va_list args1, args2;
+            va_start (args1, i);
+            args2 = args1;
+            if (va_arg (args2, int) != 42 || va_arg (args1, int) != 42)
+                exit (1);
+            va_end (args1); va_end (args2);
+        }
+        int main() { f (0, 42); return 0; }
+configure:11162: checking for C++ exceptions flag
+configure:11197: checking for gcc 3.0 ABI
+configure:11215: c++ -c  -fno-strict-aliasing -fshort-wchar -pthread   conftest.C 1>&5
+configure:11239: checking for C++ "explicit" keyword
+configure:11254: c++ -c  -fno-strict-aliasing -fshort-wchar -pthread   conftest.C 1>&5
+configure:11275: checking for C++ "typename" keyword
+configure:11299: c++ -c  -fno-strict-aliasing -fshort-wchar -pthread   conftest.C 1>&5
+configure:11320: checking for modern C++ template specialization syntax support
+configure:11335: c++ -c  -fno-strict-aliasing -fshort-wchar -pthread   conftest.C 1>&5
+configure:11357: checking whether partial template specialization works
+configure:11370: c++ -c  -fno-strict-aliasing -fshort-wchar -pthread   conftest.C 1>&5
+configure:11391: checking whether operators must be re-defined for templates derived from templates
+configure:11408: c++ -c  -fno-strict-aliasing -fshort-wchar -pthread   conftest.C 1>&5
+configure:11430: checking whether we need to cast a derived template to pass as its base class
+configure:11444: c++ -c  -fno-strict-aliasing -fshort-wchar -pthread   conftest.C 1>&5
+configure:11465: checking whether the compiler can resolve const ambiguities for templates
+configure:11491: c++ -c  -fno-strict-aliasing -fshort-wchar -pthread   conftest.C 1>&5
+configure:11513: checking whether the C++ "using" keyword can change access
+configure:11526: c++ -c  -fno-strict-aliasing -fshort-wchar -pthread   conftest.C 1>&5
+configure:11537: c++ -c  -fno-strict-aliasing -fshort-wchar -pthread   conftest.C 1>&5
+configure: In function 'int main()':
+configure:11533:19: error: 'int A::foo()' is inaccessible within this context
+   rm -rf conftest*
+                   ^
+configure:11530:23: note: declared here
+ ; return 0; }
+                       ^  
+configure: failed program was:
+#line 11529 "configure"
+#include "confdefs.h"
+class A { public: int foo() { return 1; } };
+                       class B : public A { private: using A::foo; };
+int main() {
+B b; return b.foo();
+; return 0; }
+configure:11565: checking whether the C++ "using" keyword resolves ambiguity
+configure:11586: c++ -c  -fno-strict-aliasing -fshort-wchar -pthread   conftest.C 1>&5
+configure:11607: checking for "std::" namespace
+configure:11619: c++ -c  -fno-strict-aliasing -fshort-wchar -pthread   conftest.C 1>&5
+configure:11640: checking whether standard template operator!=() is ambiguous
+configure:11655: c++ -c  -fno-strict-aliasing -fshort-wchar -pthread   conftest.C 1>&5
+configure:11677: checking for C++ reinterpret_cast
+configure:11690: c++ -c  -fno-strict-aliasing -fshort-wchar -pthread   conftest.C 1>&5
+configure:11711: checking for C++ dynamic_cast to void*
+configure:11738: c++ -o conftest  -fno-strict-aliasing -fshort-wchar -pthread   -lpthread  conftest.C -ldl -lm  1>&5
+configure:11762: checking whether C++ requires implementation of unused virtual methods
+configure:11774: c++ -o conftest  -fno-strict-aliasing -fshort-wchar -pthread   -lpthread  conftest.C -ldl -lm  1>&5
+/tmp/cctpwzpr.o: In function `main':
+conftest.C:(.text+0x1a): undefined reference to `vtable for X'
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 11767 "configure"
+#include "confdefs.h"
+class X {private: virtual void never_called();};
+int main() {
+X x;
+; return 0; }
+configure:11797: checking for trouble comparing to zero near std::operator!=()
+configure:11813: c++ -c  -fno-strict-aliasing -fshort-wchar -pthread   conftest.C 1>&5
+configure:11845: checking for LC_MESSAGES
+configure:11857: gcc -c  -fno-strict-aliasing -pthread   conftest.c 1>&5
+configure:13093: checking if app-specific confvars.sh exists
+configure:13337: checking for pkg-config
+configure:13381: checking for gtk+-2.0 >= 2.10.0 gtk+-unix-print-2.0 gdk-x11-2.0 glib-2.0 gobject-2.0
+configure:13388: checking MOZ_GTK2_CFLAGS
+configure:13393: checking MOZ_GTK2_LIBS
+configure:13769: checking for xft
+configure:13776: checking MOZ_XFT_CFLAGS
+configure:13781: checking MOZ_XFT_LIBS
+configure:13863: checking for pango >= 1.10.0
+configure:13870: checking _PANGOCHK_CFLAGS
+configure:13875: checking _PANGOCHK_LIBS
+configure:13954: checking for pango >= 1.10.0 pangocairo >= 1.10.0 pangoft2 >= 1.10.0
+configure:13961: checking MOZ_PANGO_CFLAGS
+configure:13966: checking MOZ_PANGO_LIBS
+configure:14087: checking for gnome-vfs-2.0 >= 2.0 gnome-vfs-module-2.0 >= 2.0
+configure:14194: checking for gconf-2.0 >= 1.2.1
+configure:14201: checking MOZ_GCONF_CFLAGS
+configure:14206: checking MOZ_GCONF_LIBS
+configure:14305: checking for libgnome-2.0 >= 2.0
+configure:14439: checking for libgnomeui-2.0 >= 2.2.0
+configure:14572: checking for dbus-glib-1 >= 0.60
+configure:14579: checking MOZ_DBUS_GLIB_CFLAGS
+configure:14584: checking MOZ_DBUS_GLIB_LIBS
+configure:15778: checking for tar archiver
+configure:15784: checking for gnutar
+configure:15784: checking for gtar
+configure:15784: checking for tar
+configure:15821: checking for wget
+configure:15827: checking for wget
+configure:16526: checking for valid optimization flags
+configure:16537: gcc -c  -fno-strict-aliasing -pthread -Os -freorder-blocks -fno-reorder-functions    conftest.c 1>&5
+configure:16707: checking size of int *
+configure:16726: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure:16717:1: warning: return type defaults to 'int' [-Wimplicit-int]
+   fprintf(f, "%d\n", sizeof(int *));
+ ^ ~~
+configure: In function 'main':
+configure:16720:11: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+ EOF
+           ^   
+configure:16720:11: warning: incompatible implicit declaration of built-in function 'exit'
+configure:16720:11: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:16721:14: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat=]
+ if { (eval echo configure:16726: \"$ac_link\") 1>&5; (eval $ac_link) 2>&5; } && test -s conftest${ac_exeext} && (./conftest; exit) 2>/dev/null
+              ^~~~~~
+configure:16722:3: warning: incompatible implicit declaration of built-in function 'exit'
+ then
+   ^~  
+configure:16722:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:16856: checking for valgrind/valgrind.h
+configure:16866: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:16862:31: fatal error: valgrind/valgrind.h: No such file or directory
+ ac_err=`grep -v '^ *+' conftest.out | grep -v "^conftest.${ac_ext}\$"`
+                               ^
+compilation terminated.
+configure: failed program was:
+#line 16861 "configure"
+#include "confdefs.h"
+#include <valgrind/valgrind.h>
+configure:17344: checking for __cxa_demangle
+configure:17375: c++ -o conftest  -fno-strict-aliasing -fshort-wchar -pthread   -lpthread  conftest.C -ldl -lm  1>&5
+configure:17423: checking for unwind.h
+configure:17433: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:17452: checking for _Unwind_Backtrace
+configure:17480: gcc -o conftest  -fno-strict-aliasing -pthread   -lpthread  conftest.c -ldl -lm  1>&5
+configure:17602: checking for gcc -pipe support
+dummy-hello.c: In function 'main':
+dummy-hello.c:2:21: warning: missing terminating " character
+ int main() { printf("Hello World
+                     ^
+dummy-hello.c:2:21: error: missing terminating " character
+ int main() { printf("Hello World
+                     ^~~~~~~~~~~~
+dummy-hello.c:3:1: warning: missing terminating " character
+ "); exit(0); }
+ ^
+dummy-hello.c:3:1: error: missing terminating " character
+ "); exit(0); }
+ ^~~~~~~~~~~~~~
+dummy-hello.c:3:1: error: expected expression at end of input
+dummy-hello.c:3:1: error: expected declaration or statement at end of input
+configure:17624: gcc -c  -fno-strict-aliasing -pthread -pipe   conftest.c 1>&5
+configure:17666: checking whether compiler supports -Wno-long-long
+configure:17675: gcc -c  -fno-strict-aliasing -pthread -pipe -Wno-long-long   conftest.c 1>&5
+configure:17711: checking whether C compiler supports -fprofile-generate
+configure:17720: gcc -c  -fno-strict-aliasing -pthread -pipe -fprofile-generate   conftest.c 1>&5
+configure:17819: checking whether C++ compiler has -pedantic long long bug
+configure:17828: c++ -c  -fno-strict-aliasing -fshort-wchar -pthread -pipe  -Wall -Wconversion -Wpointer-arith -Woverloaded-virtual -Wsynth -Wno-ctor-dtor-privacy -Wno-non-virtual-dtor -Wcast-align -Wno-long-long -pedantic   conftest.C 1>&5
+configure: In function 'int main()':
+configure:17825:68: warning: typedef 'static_assert_line_17828' locally defined but not used [-Wunused-local-typedefs]
+   result="no"
+                                                                    ^
+configure:17824:55: note: in expansion of macro 'CONFIGURE_STATIC_ASSERT_IMPL2'
+   rm -rf conftest*
+                                                       ^                            
+configure:17823:44: note: in expansion of macro 'CONFIGURE_STATIC_ASSERT_IMPL'
+ if { (eval echo configure:17828: \"$ac_compile\") 1>&5; (eval $ac_compile) 2>&5; }; then
+                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+configure:17828:1: note: in expansion of macro 'CONFIGURE_STATIC_ASSERT'
+   cat conftest.$ac_ext >&5
+ ^ ~~~~~~~~~~~~~~~~~~~~~
+configure:17853: checking for correct temporary object destruction order
+configure:17881: c++ -o conftest  -fno-strict-aliasing -fshort-wchar -pthread -pipe   -lpthread  conftest.C -ldl -lm  1>&5
+configure:17902: checking for correct overload resolution with const and templates
+configure:17937: c++ -c  -fno-strict-aliasing -fshort-wchar -pthread -pipe  -Wall -Wconversion -Wpointer-arith -Woverloaded-virtual -Wsynth -Wno-ctor-dtor-privacy -Wno-non-virtual-dtor -Wcast-align -Wno-long-long -pedantic   conftest.C 1>&5
+configure: In function 'int main()':
+configure:17932:37: warning: 'bar' is used uninitialized in this function [-Wuninitialized]
+ if { (eval echo configure:17937: \"$ac_compile\") 1>&5; (eval $ac_compile) 2>&5; }; then
+                                     ^~~
+configure:18197: checking for arpa/nameser_compat.h
+configure:18207: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:18236: checking for inet_ntop
+configure:18264: gcc -o conftest  -fno-strict-aliasing -pthread -pipe   -lpthread  conftest.c  1>&5
+configure:18291: checking size of time_t
+configure:18311: gcc -o conftest  -fno-strict-aliasing -pthread -pipe   -lpthread  conftest.c  1>&5
+configure:18302:1: warning: return type defaults to 'int' [-Wimplicit-int]
+   fprintf(f, "%d\n", sizeof(time_t));
+ ^ ~~
+configure: In function 'main':
+configure:18305:11: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+ EOF
+           ^   
+configure:18305:11: warning: incompatible implicit declaration of built-in function 'exit'
+configure:18305:11: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:18306:14: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat=]
+ if { (eval echo configure:18311: \"$ac_link\") 1>&5; (eval $ac_link) 2>&5; } && test -s conftest${ac_exeext} && (./conftest; exit) 2>/dev/null
+              ^~~~~~
+configure:18307:3: warning: incompatible implicit declaration of built-in function 'exit'
+ then
+   ^~  
+configure:18307:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:18334: checking for timezone external
+configure:18346: gcc -o conftest  -fno-strict-aliasing -pthread -pipe   -lpthread  conftest.c  1>&5
+configure:18367: checking for tm_gmtoff in struct tm
+configure:18379: gcc -c  -fno-strict-aliasing -pthread -pipe   conftest.c 1>&5
+configure:18496: checking for libIDL-2.0 >= 0.8.0 glib-2.0 gobject-2.0
+configure:18503: checking LIBIDL_CFLAGS
+configure:18508: checking LIBIDL_LIBS
+configure:19349: checking for glib-2.0 >= 1.3.7 gobject-2.0
+configure:19356: checking GLIB_CFLAGS
+configure:19361: checking GLIB_LIBS
+configure:19961: checking for stdint.h
+configure:19971: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:19961: checking for inttypes.h
+configure:19971: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:19961: checking for sys/int_types.h
+configure:19971: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:19967:27: fatal error: sys/int_types.h: No such file or directory
+ ac_err=`grep -v '^ *+' conftest.out | grep -v "^conftest.${ac_ext}\$"`
+                           ^
+compilation terminated.
+configure: failed program was:
+#line 19966 "configure"
+#include "confdefs.h"
+#include <sys/int_types.h>
+configure:21165: gcc -c -Wall -W -Wno-unused -Wpointer-arith -Wcast-align -W -Wno-long-long -pedantic -fno-strict-aliasing -pthread -pipe    conftest.c 1>&5

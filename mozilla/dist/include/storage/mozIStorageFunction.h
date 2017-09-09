@@ -1,0 +1,1 @@
+../../../storage/public/_xpidlgen/mozIStorageFunction.h

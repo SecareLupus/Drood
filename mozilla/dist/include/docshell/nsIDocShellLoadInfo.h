@@ -1,0 +1,1 @@
+../../../docshell/base/_xpidlgen/nsIDocShellLoadInfo.h

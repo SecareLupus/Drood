@@ -1,0 +1,1 @@
+../../../xpinstall/public/_xpidlgen/nsIXPIDialogService.h

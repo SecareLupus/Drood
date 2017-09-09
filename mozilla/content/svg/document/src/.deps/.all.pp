@@ -1,0 +1,1 @@
+nsSVGDocument.o: FORCE

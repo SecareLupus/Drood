@@ -1,0 +1,1 @@
+../../../editor/composer/public/_xpidlgen/nsIEditingSession.h

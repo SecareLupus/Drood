@@ -1,0 +1,1 @@
+nsAccessibilityFactory.o: FORCE

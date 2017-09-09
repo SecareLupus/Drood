@@ -1,0 +1,1 @@
+../../../dom/public/idl/traversal/_xpidlgen/nsIDOMTreeWalker.h

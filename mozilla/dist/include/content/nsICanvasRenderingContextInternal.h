@@ -1,0 +1,1 @@
+../../../content/canvas/public/nsICanvasRenderingContextInternal.h

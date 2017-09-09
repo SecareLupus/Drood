@@ -1,0 +1,1 @@
+../../../editor/txmgr/idl/_xpidlgen/nsITransaction.h

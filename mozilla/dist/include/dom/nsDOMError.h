@@ -1,0 +1,1 @@
+../../../dom/public/nsDOMError.h

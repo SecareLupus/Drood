@@ -1,0 +1,1 @@
+../../../../../../../docshell/test/browser/browser_bug388121-2.js

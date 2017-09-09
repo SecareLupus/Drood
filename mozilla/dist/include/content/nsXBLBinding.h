@@ -1,0 +1,1 @@
+../../../content/xbl/src/nsXBLBinding.h

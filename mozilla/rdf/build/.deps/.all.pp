@@ -1,0 +1,1 @@
+nsRDFModule.o: FORCE

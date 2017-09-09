@@ -1,0 +1,1 @@
+../../../content/events/public/nsIPrivateTextEvent.h

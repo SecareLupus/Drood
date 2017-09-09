@@ -1,0 +1,1 @@
+../../../toolkit/mozapps/extensions/src/nsExtensionManager.js

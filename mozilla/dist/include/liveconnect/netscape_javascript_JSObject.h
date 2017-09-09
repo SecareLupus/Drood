@@ -1,0 +1,1 @@
+../../../js/src/liveconnect/_jni/netscape_javascript_JSObject.h

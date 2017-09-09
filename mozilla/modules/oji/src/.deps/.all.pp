@@ -1,0 +1,1 @@
+nsJVMAuthTools.o ProxyJNI.o lcglue.o jvmmgr.o nsJVMConfigManager.o nsJVMManager.o nsCJVMManagerFactory.o ProxyClassLoader.o nsJVMPluginTagInfo.o nsCNullSecurityContext.o nsJVMConfigManagerUnix.o nsCSecurityContext.o scd.o: FORCE

@@ -1,0 +1,1 @@
+../../../dom/public/idl/sidebar/_xpidlgen/nsISidebar.h

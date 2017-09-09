@@ -1,0 +1,1 @@
+../../../intl/chardet/public/nsIXMLEncodingService.h

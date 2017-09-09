@@ -1,0 +1,1 @@
+nsComposerDocumentCommands.o nsComposerController.o nsEditingSession.o nsComposerCommandsUpdater.o nsComposeTxtSrvFilter.o nsComposerRegistration.o nsEditorSpellCheck.o nsComposerCommands.o: FORCE

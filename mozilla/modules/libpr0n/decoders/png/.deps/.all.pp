@@ -1,0 +1,1 @@
+nsPNGDecoder.o: FORCE

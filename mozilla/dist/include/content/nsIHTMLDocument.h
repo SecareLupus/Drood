@@ -1,0 +1,1 @@
+../../../content/html/document/src/nsIHTMLDocument.h

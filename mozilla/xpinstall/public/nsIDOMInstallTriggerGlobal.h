@@ -72,8 +72,8 @@ public:
 
 };
 
-NS_DEFINE_STATIC_IID_ACCESSOR(nsIDOMInstallTriggerGlobal,
-                              NS_IDOMINSTALLTRIGGERGLOBAL_IID)
+NS_DEFINE_STATIC_IID_ACCESSOR( (PRUint8)(nsIDOMInstallTriggerGlobal),
+                              NS_IDOMINSTALLTRIGGERGLOBAL_IID )
 
 extern nsresult NS_InitInstallTriggerGlobalClass(nsIScriptContext *aContext, void **aPrototype);
 

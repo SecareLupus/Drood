@@ -1,0 +1,1 @@
+../../../dom/public/idl/html/_xpidlgen/nsIDOMHTMLAnchorElement.h

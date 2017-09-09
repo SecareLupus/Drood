@@ -1,0 +1,1 @@
+../../../dom/public/idl/ls/_xpidlgen/nsIDOMLSException.h

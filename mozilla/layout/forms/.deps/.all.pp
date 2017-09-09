@@ -1,0 +1,1 @@
+nsGfxButtonControlFrame.o nsListControlFrame.o nsFormControlFrame.o nsGfxCheckboxControlFrame.o nsLegendFrame.o nsSelectsAreaFrame.o nsHTMLButtonControlFrame.o nsTextControlFrame.o nsImageControlFrame.o nsIsIndexFrame.o nsFieldSetFrame.o nsButtonFrameRenderer.o nsGfxRadioControlFrame.o nsFileControlFrame.o nsComboboxControlFrame.o: FORCE

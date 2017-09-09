@@ -1,0 +1,1 @@
+nsAlertsService.o: FORCE

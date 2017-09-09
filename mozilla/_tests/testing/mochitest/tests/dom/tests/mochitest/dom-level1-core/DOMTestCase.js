@@ -1,0 +1,1 @@
+../../../../../../../../dom/tests/mochitest/dom-level1-core/DOMTestCase.js

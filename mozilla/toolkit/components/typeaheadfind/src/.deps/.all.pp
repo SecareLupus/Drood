@@ -1,0 +1,1 @@
+nsTypeAheadFind.o: FORCE

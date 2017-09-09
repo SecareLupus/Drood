@@ -1,0 +1,1 @@
+../../../dom/public/idl/xbl/_xpidlgen/nsIDOMDocumentXBL.h

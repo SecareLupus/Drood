@@ -1,0 +1,1 @@
+../../../extensions/pref/autoconfig/public/_xpidlgen/nsIReadConfig.h

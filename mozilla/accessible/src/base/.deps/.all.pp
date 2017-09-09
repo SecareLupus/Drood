@@ -1,0 +1,1 @@
+nsAccessibleRelation.o nsCaretAccessible.o nsAccessibleEventData.o nsAccessibilityAtoms.o nsBaseWidgetAccessible.o nsAccessible.o nsAccessibleTreeWalker.o nsRootAccessible.o nsDocAccessible.o nsApplicationAccessible.o nsARIAMap.o nsAccessNode.o nsAccessibilityService.o nsTextAccessible.o nsOuterDocAccessible.o nsAccessibilityUtils.o nsFormControlAccessible.o: FORCE

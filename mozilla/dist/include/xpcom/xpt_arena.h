@@ -1,0 +1,1 @@
+../../../xpcom/typelib/xpt/public/xpt_arena.h

@@ -1,0 +1,1 @@
+../../../xpinstall/public/nsIDOMInstallTriggerGlobal.h

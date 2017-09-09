@@ -1,0 +1,1 @@
+../../../layout/style/nsICSSNameSpaceRule.h

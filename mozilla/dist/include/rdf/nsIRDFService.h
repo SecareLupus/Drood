@@ -1,0 +1,1 @@
+../../../rdf/base/idl/_xpidlgen/nsIRDFService.h

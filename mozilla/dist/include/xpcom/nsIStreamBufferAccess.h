@@ -1,0 +1,1 @@
+../../../xpcom/io/_xpidlgen/nsIStreamBufferAccess.h

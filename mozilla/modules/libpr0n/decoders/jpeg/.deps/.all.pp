@@ -1,0 +1,1 @@
+nsJPEGDecoder.o: FORCE

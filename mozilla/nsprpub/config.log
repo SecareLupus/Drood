@@ -1,0 +1,39 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:632: checking host system type
+configure:653: checking target system type
+configure:671: checking build system type
+configure:1071: checking for whoami
+configure:1889: checking for gcc
+configure:2002: checking whether the C compiler (gcc  ) works
+configure:2018: gcc -o conftest    conftest.c  1>&5
+configure:2015:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^~~~
+configure:2044: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:2049: checking whether we are using GNU C
+configure:2077: checking whether gcc accepts -g
+configure:2258: checking how to run the C preprocessor
+configure:2340: checking for ranlib
+configure:2372: checking for as
+configure:2413: checking for ar
+configure:2454: checking for ld
+configure:2495: checking for strip
+configure:2536: checking for windres
+configure:2604: checking for gcc -pipe support
+configure:2653: checking for visibility(hidden) attribute
+configure:2677: checking for visibility pragma support
+configure:2730: checking for perl5
+configure:5088: checking for dlopen in -ldl
+configure:5124: checking for dlfcn.h
+configure:5167: checking whether gcc needs -traditional
+configure:5215: checking for lchown
+configure:5215: checking for strerror
+configure:5323: checking for pthread_create in -lpthreads
+gcc -o dummy dummy.c  -Wall  -lpthreads  
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+configure:5345: checking for pthread_create in -lpthread
+gcc -o dummy dummy.c  -Wall  -lpthread  
+configure:5534: checking whether gcc accepts -pthread

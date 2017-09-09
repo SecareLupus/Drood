@@ -1,0 +1,1 @@
+../../../xpcom/base/nsCycleCollector.h

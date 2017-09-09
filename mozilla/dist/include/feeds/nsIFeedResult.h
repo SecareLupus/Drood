@@ -1,0 +1,1 @@
+../../../toolkit/components/feeds/public/_xpidlgen/nsIFeedResult.h

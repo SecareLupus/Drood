@@ -1,0 +1,1 @@
+../../../widget/public/_xpidlgen/nsISound.h

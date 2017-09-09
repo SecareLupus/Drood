@@ -1,0 +1,1 @@
+nsGlobalHistory.o: FORCE

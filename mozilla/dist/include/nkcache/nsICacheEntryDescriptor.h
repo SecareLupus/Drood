@@ -1,0 +1,1 @@
+../../../netwerk/cache/public/_xpidlgen/nsICacheEntryDescriptor.h
