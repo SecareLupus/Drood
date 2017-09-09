@@ -602,7 +602,7 @@ nsTSubstring_CharT::SetLength( size_type length )
       return;
     }
 
-    SetCapacity(length);
+    this->SetCapacity(length);
 
     // XXX(darin): SetCapacity may fail, but it doesn't give us a way to find
     // out.  We should improve that.  For now we just verify that the capacity

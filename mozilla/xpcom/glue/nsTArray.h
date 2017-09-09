@@ -274,7 +274,7 @@ class nsTArray : public nsTArray_base {
 
     // Initialize this array and pre-allocate some number of elements.
     explicit nsTArray(size_type capacity) {
-      SetCapacity(capacity);
+      this->SetCapacity(capacity);
     }
     
     // The array's copy-constructor performs a 'deep' copy of the given array.

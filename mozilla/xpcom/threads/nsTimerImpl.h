@@ -103,8 +103,9 @@ public:
 
   PRInt32 GetGeneration() { return mGeneration; }
 
-private:
+protected:
   ~nsTimerImpl();
+private:
   nsresult InitCommon(PRUint32 aType, PRUint32 aDelay);
 
   void ReleaseCallback()

@@ -203,9 +203,10 @@ class nsDerivedSafe : public T
       nsrefcnt AddRef(void);
       nsrefcnt Release(void);
 #endif
-
+    
+    private:
 #if !defined(AIX) && !defined(IRIX)
-      void operator delete( void*, size_t );                  // NOT TO BE IMPLEMENTED
+      void operator delete( void*, size_t = 0 );                  // NOT TO BE IMPLEMENTED
         // declaring |operator delete| private makes calling delete on an interface pointer a compile error
 #endif
 

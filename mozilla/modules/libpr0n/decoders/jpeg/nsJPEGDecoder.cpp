@@ -1044,7 +1044,7 @@ term_source (j_decompress_ptr jd)
 /* Use static tables for color processing. */
 /* Four tables, each 256 entries of 4 bytes totals 4K which is not bad... */
 
-const int Cr_r_tab[(MAXJSAMPLE+1) * sizeof(int)] ={
+const long unsigned int Cr_r_tab[(MAXJSAMPLE+1) * sizeof(int)] ={
   0xffffff4dUL, 0xffffff4eUL, 0xffffff4fUL, 0xffffff51UL, 0xffffff52UL, 0xffffff54UL, 
   0xffffff55UL, 0xffffff56UL, 0xffffff58UL, 0xffffff59UL, 0xffffff5bUL, 0xffffff5cUL, 
   0xffffff5dUL, 0xffffff5fUL, 0xffffff60UL, 0xffffff62UL, 0xffffff63UL, 0xffffff64UL, 
@@ -1090,7 +1090,7 @@ const int Cr_r_tab[(MAXJSAMPLE+1) * sizeof(int)] ={
         0xaeUL,       0xafUL,       0xb1UL,       0xb2UL
   };
 
-const int Cb_b_tab[(MAXJSAMPLE+1) * sizeof(int)] ={
+const long unsigned int Cb_b_tab[(MAXJSAMPLE+1) * sizeof(int)] ={
   0xffffff1dUL, 0xffffff1fUL, 0xffffff21UL, 0xffffff22UL, 0xffffff24UL, 0xffffff26UL, 
   0xffffff28UL, 0xffffff2aUL, 0xffffff2bUL, 0xffffff2dUL, 0xffffff2fUL, 0xffffff31UL, 
   0xffffff32UL, 0xffffff34UL, 0xffffff36UL, 0xffffff38UL, 0xffffff3aUL, 0xffffff3bUL, 
@@ -1136,7 +1136,7 @@ const int Cb_b_tab[(MAXJSAMPLE+1) * sizeof(int)] ={
         0xdcUL,       0xdeUL,       0xdfUL,       0xe1UL
   };
 
-const int Cr_g_tab[(MAXJSAMPLE+1) * sizeof(int)] ={
+const long unsigned int Cr_g_tab[(MAXJSAMPLE+1) * sizeof(int)] ={
     0x5b6900UL,   0x5ab22eUL,   0x59fb5cUL,   0x59448aUL,   0x588db8UL,   0x57d6e6UL, 
     0x572014UL,   0x566942UL,   0x55b270UL,   0x54fb9eUL,   0x5444ccUL,   0x538dfaUL, 
     0x52d728UL,   0x522056UL,   0x516984UL,   0x50b2b2UL,   0x4ffbe0UL,   0x4f450eUL, 
@@ -1182,7 +1182,7 @@ const int Cr_g_tab[(MAXJSAMPLE+1) * sizeof(int)] ={
   0xffa77248UL, 0xffa6bb76UL, 0xffa604a4UL, 0xffa54dd2UL
  };
 
-const int Cb_g_tab[(MAXJSAMPLE+1) * sizeof(int)] ={
+const long unsigned int Cb_g_tab[(MAXJSAMPLE+1) * sizeof(int)] ={
     0x2c8d00UL,   0x2c34e6UL,   0x2bdcccUL,   0x2b84b2UL,   0x2b2c98UL,   0x2ad47eUL, 
     0x2a7c64UL,   0x2a244aUL,   0x29cc30UL,   0x297416UL,   0x291bfcUL,   0x28c3e2UL, 
     0x286bc8UL,   0x2813aeUL,   0x27bb94UL,   0x27637aUL,   0x270b60UL,   0x26b346UL, 
