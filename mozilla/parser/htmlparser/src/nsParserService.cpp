@@ -147,7 +147,7 @@ nsParserService::RegisterObserver(nsIElementObserver* aObserver,
                                   const eHTMLTags* aTags)
 {
   nsresult result = NS_OK;
-  nsObserverEntry* entry = GetEntry(aTopic);
+  nsObserverEntry* entry = this->GetEntry(aTopic);
 
   if(!entry) {
     result = CreateEntry(aTopic,&entry);
@@ -184,7 +184,7 @@ NS_IMETHODIMP
 nsParserService::GetTopicObservers(const nsAString& aTopic,
                                    nsIObserverEntry** aEntry) {
   nsresult result = NS_OK;
-  nsObserverEntry* entry = GetEntry(aTopic);
+  nsObserverEntry* entry = this->GetEntry(aTopic);
 
   if (!entry) {
     return NS_ERROR_NULL_POINTER;
