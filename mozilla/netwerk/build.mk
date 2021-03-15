@@ -51,7 +51,7 @@ TIERS += zlib \
 
 
 ifndef MOZ_NATIVE_ZLIB
-tier_zlib_dirs	+= modules/zlib
+#tier_zlib_dirs	+= modules/zlib
 endif
 
 #

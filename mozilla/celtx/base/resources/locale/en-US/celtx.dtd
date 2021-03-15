@@ -1,4 +1,4 @@
-<!ENTITY celtxServices.label "Drood Services">
+<!ENTITY celtxServices.label "Open-Celtx Services">
 <!ENTITY celtxServices.toolbarlabel "Services">
 <!ENTITY celtxServices.tooltiptext "&celtxServices.label;">
 
@@ -262,12 +262,12 @@
 <!ENTITY allShootDays.label "All Shoot Days">
 <!ENTITY allUppercase.label "ALL">
 <!ENTITY american.label "American">
-<!ENTITY appName "Drood">
+<!ENTITY appName "Open-Celtx">
 <!ENTITY appliesToPDFOnly.label  "These features are only available for PDF generation.">
 <!ENTITY audioplay.desc "Add an audio play to your project.">
 <!ENTITY audioplay.label "Audio Play">
-<!ENTITY authDialog.description  "This action requires that you sign on to your Drood Account">
-<!ENTITY authDialog.title       "Drood Authentication">
+<!ENTITY authDialog.description  "This action requires that you sign on to your Open-Celtx Account">
+<!ENTITY authDialog.title       "Open-Celtx Authentication">
 <!ENTITY author.label "Author">
 <!ENTITY autoCharContinueds.label   "Show character continueds">
 <!ENTITY autoSaveProject.label "Automatically save project">
@@ -338,7 +338,7 @@
 <!ENTITY category.label     "Category">
 <!ENTITY celtxAccountCmd.accessKey "C">
 <!ENTITY celtxAccountCmd.label "&appName; Account...">
-<!ENTITY celtxError.title       "Drood Error">
+<!ENTITY celtxError.title       "Open-Celtx Error">
 <!ENTITY celtxTagline.label "#2 choice for media pre-production.">
 <!ENTITY celtxWikiCmd.label "&appName; Wiki">
 <!ENTITY charOutline.desc "An overview of characters and their relations to each other.">
@@ -419,8 +419,8 @@
 <!ENTITY element.label          "Element">
 <!ENTITY elements.label         "Elements">
 <!ENTITY ellipsis "...">
-<!ENTITY enableStats.desc  "This is used to count the number of active Drood users. No personally identifying information or project data is transmitted in the process.">
-<!ENTITY enableStats.label    "Allow Drood to PING the Drood Server on Launch.">
+<!ENTITY enableStats.desc  "This is used to count the number of active Open-Celtx users. No personally identifying information or project data is transmitted in the process.">
+<!ENTITY enableStats.label    "Allow Open-Celtx to PING the Open-Celtx Server on Launch.">
 <!ENTITY enabled.label "Enabled">
 <!ENTITY end.label "End">
 <!ENTITY endOfShooting.label "End of Shooting">
@@ -592,7 +592,7 @@
 <!ENTITY generatePDFCmd.label "Generate PDF...">
 <!ENTITY generateReportCmd.label "Generate Report">
 <!ENTITY generateReportCmd.toolbarlabel "Report">
-<!ENTITY getCeltxTools.label "Get Drood Tools">
+<!ENTITY getCeltxTools.label "Get Open-Celtx Tools">
 <!ENTITY getProjDialog.caption "Available Projects">
 <!ENTITY getProjDialog.title   "Download Project">
 <!ENTITY gotoItemCmd.label          "Go To">
@@ -643,7 +643,7 @@
 <!ENTITY moveDownCmd.label          "Move Down">
 <!ENTITY moveUpCmd.label            "Move Up">
 <!ENTITY moving.label "Moving">
-<!ENTITY myStudio.label "My Drood">
+<!ENTITY myStudio.label "My Open-Celtx">
 <!ENTITY name.label         "Name">
 <!ENTITY network.label "Network">
 <!ENTITY never.label "Never">
@@ -665,7 +665,7 @@
 <!ENTITY oneHour.label "1 hour">
 <!ENTITY oneLineSchedule.label "One Line Schedule">
 <!ENTITY open.label "Open">
-<!ENTITY openFromStudio.label "Open from Drood">
+<!ENTITY openFromStudio.label "Open from Open-Celtx">
 <!ENTITY openItemCmd.label "Open Item">
 <!ENTITY openProjectCmd.label "Open Project...">
 <!ENTITY openProjectCmd.toolbarlabel "Open">
@@ -685,11 +685,11 @@
 <!ENTITY pdfDownloadDialog.title    "Converting to PDF">
 <!ENTITY pdfErrorHeader "Oops!">
 <!ENTITY pdfErrorText1 "You need to be online to use this advanced feature.">
-<!ENTITY pdfErrorText2 "Secure and private, this advanced Drood web service automatically formats your script to an industry standard Screenplay, Stageplay, Audio Play or Dual Column (AV).">
+<!ENTITY pdfErrorText2 "Secure and private, this advanced Open-Celtx web service automatically formats your script to an industry standard Screenplay, Stageplay, Audio Play or Dual Column (AV).">
 <!ENTITY pdfOptions.title           "PDF Options">
 <!ENTITY pdfOptionsCmd.label "Mores and Continueds">
 <!ENTITY pdfWarningHeader "Hi there!">
-<!ENTITY pdfWarningText "Secure and private, this advanced Drood web service automatically formats your script to an industry standard Screenplay, Stageplay, Audio Play or Dual Column (AV).">
+<!ENTITY pdfWarningText "Secure and private, this advanced Open-Celtx web service automatically formats your script to an industry standard Screenplay, Stageplay, Audio Play or Dual Column (AV).">
 <!ENTITY personal.label "Personal">
 <!ENTITY picklist.label "Picklist">
 <!ENTITY principalFunction.label "Principal Function">
@@ -756,7 +756,7 @@
 <!ENTITY regWiz.notePassword "Your password must be at least 5 characters in length.">
 <!ENTITY regWiz.noteUsername "Your username must be at least 3 characters in length, and may contain only letters and digits.">
 <!ENTITY regWiz.orgLabel   "Organization:">
-<!ENTITY regWiz.title "Drood Registration Wizard">
+<!ENTITY regWiz.title "Open-Celtx Registration Wizard">
 <!ENTITY regWiz.uidLabel   "&appName; Username:">
 <!ENTITY regWiz.useExistingAccountLabel  "Use an existing account.">
 <!ENTITY regWiz.warn "You will need to create a &appName; account to access this feature.">
@@ -774,13 +774,13 @@
 <!ENTITY samples.label "Samples">
 <!ENTITY saveAsHTML.label "Save as HTML">
 <!ENTITY saveAsTemplate.label "Save As Template">
-<!ENTITY saveCommentCheckbox.label "Ask me for a comment when saving to Drood.">
+<!ENTITY saveCommentCheckbox.label "Ask me for a comment when saving to Open-Celtx.">
 <!ENTITY savePDFCmd.label "Save PDF">
 <!ENTITY savePDFCmd.tooltip "Save PDF">
 <!ENTITY saveProjectAsCmd.label "Save Project As...">
 <!ENTITY saveProjectCmd.label "Save Project">
 <!ENTITY saveProjectCmd.toolbarlabel "Save">
-<!ENTITY saveToStudio.label "Save to Drood">
+<!ENTITY saveToStudio.label "Save to Open-Celtx">
 <!ENTITY savedBy.label "Saved By">
 <!ENTITY scene.label "Scene">
 <!ENTITY sceneBreakdown.label "Scene Breakdown">
@@ -853,16 +853,16 @@
 <!ENTITY splash.celtxCentralDesc  "Use project central to change your password or update your profile">
 <!ENTITY splash.discussion      "Discussion">
 <!ENTITY splash.downloadProject     "download a project">
-<!ENTITY splash.downloadProjectDesc "Download a project from the drood server">
+<!ENTITY splash.downloadProjectDesc "Download a project from the celtx server">
 <!ENTITY splash.featureTour         "feature tour">
 <!ENTITY splash.forums      "forums">
-<!ENTITY splash.forumsDesc  "Join the discussions on the drood forum">
+<!ENTITY splash.forumsDesc  "Join the discussions on the celtx forum">
 <!ENTITY splash.gettingStarted  "Getting Started">
-<!ENTITY splash.guide               "drood user guide">
+<!ENTITY splash.guide               "open-celtx user guide">
 <!ENTITY splash.help            "Help">
 <!ENTITY splash.helpAccount     "create an account">
 <!ENTITY splash.helpAccountDesc "Creating an account gives you access to the server side features which include collaboration and PDF generation">
-<!ENTITY splash.helpDesc        "The links on the left highlight several drood resources">
+<!ENTITY splash.helpDesc        "The links on the left highlight several open-celtx resources">
 <!ENTITY splash.helpOptions         "help options">
 <!ENTITY splash.inbox           "Inbox">
 <!ENTITY splash.logIn "Sign in">
@@ -874,16 +874,16 @@
 <!ENTITY splash.projectCentral  "Project Central">
 <!ENTITY splash.projects        "projects">
 <!ENTITY splash.recentProjects      "recent projects">
-<!ENTITY splash.sampleDesc      "we've used The Wizard of Oz to illustrate the different features in drood. the various documents are used to flesh out the needs of producing a single scene. included in this sample are a script, character and scene details forms, breakdown information, and some schedule information.">
+<!ENTITY splash.sampleDesc      "we've used The Wizard of Oz to illustrate the different features in open-celtx. the various documents are used to flesh out the needs of producing a single scene. included in this sample are a script, character and scene details forms, breakdown information, and some schedule information.">
 <!ENTITY splash.sampleProject   "sample project">
 <!ENTITY splash.videoWalkthrus      "video walkthrus">
 <!ENTITY splash.videoWalkthrusDesc  "Short video feature tutorials to get you up and running fast">
 <!ENTITY splash.walkthru            "3-minute walk-thru">
 <!ENTITY splash.webServices     "web services">
-<!ENTITY splash.welcomePrefix     "Welcome to Drood">
+<!ENTITY splash.welcomePrefix     "Welcome to Open-Celtx">
 <!ENTITY splash.welcomePrefixDesc "Media Pre-Production">
 <!ENTITY splash.wiki      "wiki guide">
-<!ENTITY splash.wikiDesc  "The source for getting to know drood">
+<!ENTITY splash.wikiDesc  "The source for getting to know open-celtx">
 <!ENTITY splashScreen.label "Splash Screen">
 <!ENTITY stackTrace.desc        "Below is some information that may be useful to us. Please include it if you decide to report this bug.">
 <!ENTITY stageplay.desc  "Add a stageplay script with international formatting.">
@@ -897,10 +897,10 @@
 <!ENTITY storyboard.label   "Storyboard">
 <!ENTITY strikethrough.label "Strikethrough">
 <!ENTITY stripboard.label "Stripboard">
-<!ENTITY studio.label "Drood">
-<!ENTITY studioAuthDialog.title "Drood Authentication">
-<!ENTITY studioAuthDialog.desc "Drood Login">
-<!ENTITY studioProjects.label "Drood Projects">
+<!ENTITY studio.label "Open-Celtx">
+<!ENTITY studioAuthDialog.title "Open-Celtx Authentication">
+<!ENTITY studioAuthDialog.desc "Open-Celtx Login">
+<!ENTITY studioProjects.label "Open-Celtx Projects">
 <!ENTITY subject.label "Subject">
 <!ENTITY summary.label "Summary">
 <!ENTITY syncDialog.title "Sync">
@@ -948,15 +948,15 @@
 <!ENTITY wardrobeSheet.existing  "You may also describe an existing wardrobe item from the list below.">
 <!ENTITY wardrobeSheet.label    "Wardrobe">
 <!ENTITY wardrobeSheet.select   "Select Wardrobe">
-<!ENTITY webPanel.desc              "Drood web services.">
+<!ENTITY webPanel.desc              "Open-Celtx web services.">
 <!ENTITY webPanel.label             "Web Services">
 <!ENTITY webPanelCmd.toolbarlabel   "&webPanel.label;">
-<!ENTITY webPanelIntro.createAnAccount "Create a Drood Account">
-<!ENTITY webPanelIntro.text1 "Get the most out of Drood by signing up for free and secure web services.">
-<!ENTITY webPanelIntro.text2 "*Back up* your entire project to the remote, secure Drood server to have a safe copy in the event of theft, or disaster strikes your hard drive.">
+<!ENTITY webPanelIntro.createAnAccount "Create a Open-Celtx Account">
+<!ENTITY webPanelIntro.text1 "Get the most out of Open-Celtx by signing up for free and secure web services.">
+<!ENTITY webPanelIntro.text2 "*Back up* your entire project to the remote, secure Open-Celtx server to have a safe copy in the event of theft, or disaster strikes your hard drive.">
 <!ENTITY webPanelIntro.text3 "*Collaborate* with team members by sharing your project and creating a private project space.">
 <!ENTITY webPanelIntro.text4 "*Publish* your media project to Project Central for reviews and comments, and join our growing world community of media creators.">
-<!ENTITY webPanelIntro.text5 "View your Drood project in a format optimized for your *iPhone*.">
+<!ENTITY webPanelIntro.text5 "View your Open-Celtx project in a format optimized for your *iPhone*.">
 <!ENTITY wiz.clickFinish "Click the 'Finish' button to complete this Wizard.">
 <!ENTITY wiz.clickNext "Click the 'Next' button to begin.">
 <!ENTITY workweek.label "Workweek">

@@ -828,7 +828,7 @@ PR_STATIC_CALLBACK(void) PrintStackFrame(void *aPC, void *aClosure)
 
   NS_DescribeCodeAddress(aPC, &details);
   NS_FormatCodeAddressDetails(aPC, &details, buf, sizeof(buf));
-  fprintf(stream, buf);
+  fputs(buf, stream);
 }
 
 }

@@ -59,9 +59,9 @@ tier_external_dirs	+= jpeg
 endif
 
 # Installer needs standalone libjar, hence standalone zlib
-ifdef MOZ_INSTALLER
-tier_external_dirs	+= modules/zlib/standalone
-endif
+#ifdef MOZ_INSTALLER
+#tier_external_dirs	+= modules/zlib/standalone
+#endif
 
 ifdef MOZ_UPDATER
 ifndef MOZ_NATIVE_BZ2

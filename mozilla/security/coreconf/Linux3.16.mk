@@ -12,11 +12,11 @@
 # for the specific language governing rights and limitations under the
 # License.
 #
-# The Original Code is mozilla.org code.
+# The Original Code is the Netscape security libraries.
 #
 # The Initial Developer of the Original Code is
 # Netscape Communications Corporation.
-# Portions created by the Initial Developer are Copyright (C) 1998
+# Portions created by the Initial Developer are Copyright (C) 1994-2000
 # the Initial Developer. All Rights Reserved.
 #
 # Contributor(s):
@@ -35,15 +35,14 @@
 #
 # ***** END LICENSE BLOCK *****
 
-DEPTH		= ../..
-topsrcdir	= @top_srcdir@
-srcdir		= @srcdir@
-VPATH		= @srcdir@
+include $(CORE_DEPTH)/coreconf/Linux.mk
 
-include $(DEPTH)/config/autoconf.mk
+OS_REL_CFLAGS   += -DLINUX2_1
+MKSHLIB         = $(CC) $(DSO_LDOPTS) -Wl,-soname -Wl,$(@:$(OBJDIR)/%.so=%.so)
 
-MODULE		= zlib
-DIRS		= src
-
-include $(topsrcdir)/config/rules.mk
+ifdef MAPFILE
+	MKSHLIB += -Wl,--version-script,$(MAPFILE)
+endif
+PROCESS_MAP_FILE = grep -v ';-' $< | \
+        sed -e 's,;+,,' -e 's; DATA ;;' -e 's,;;,,' -e 's,;.*,;,' > $@
 

@@ -35,14 +35,14 @@
 #
 # ***** END LICENSE BLOCK *****
 
-#
-#  Override TARGETS variable so that only static libraries
-#  are specifed as dependencies within rules.mk.
-#
+include $(CORE_DEPTH)/coreconf/Linux.mk
 
-TARGETS        = $(LIBRARY) $(PROGRAMS)
-SHARED_LIBRARY =
-IMPORT_LIBRARY =
-PROGRAM        =
+OS_REL_CFLAGS   += -DLINUX2_1
+MKSHLIB         = $(CC) $(DSO_LDOPTS) -Wl,-soname -Wl,$(@:$(OBJDIR)/%.so=%.so)
 
-EXTRA_LIBS     = $(LIBRARY)
+ifdef MAPFILE
+	MKSHLIB += -Wl,--version-script,$(MAPFILE)
+endif
+PROCESS_MAP_FILE = grep -v ';-' $< | \
+        sed -e 's,;+,,' -e 's; DATA ;;' -e 's,;;,,' -e 's,;.*,;,' > $@
+

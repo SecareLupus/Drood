@@ -788,7 +788,7 @@ add_makefiles "
   $MAKEFILES_xulapp
   $MAKEFILES_libpr0n
   $MAKEFILES_accessible
-  $MAKEFILES_zlib
+  #$MAKEFILES_zlib
   $MAKEFILES_libmar
 "
 
@@ -955,12 +955,12 @@ if [ ! "$SYSTEM_JPEG" ]; then
   "
 fi
 
-if [ ! "$SYSTEM_ZLIB" ]; then
-  add_makefiles "
-    modules/zlib/Makefile
-    modules/zlib/src/Makefile
-  "
-fi
+#if [ ! "$SYSTEM_ZLIB" ]; then
+#  add_makefiles "
+#    modules/zlib/Makefile
+#    modules/zlib/src/Makefile
+#  "
+#fi
 
 if [ ! "$SYSTEM_BZ2" ]; then
   add_makefiles "

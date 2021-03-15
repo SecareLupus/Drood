@@ -457,7 +457,6 @@ public:
   PRIntervalTime mInitTime;
 #endif
 
-private:
   ~nsTimerEvent() { 
 #ifdef DEBUG
     if (mTimer)
@@ -465,6 +464,7 @@ private:
 #endif
     MOZ_COUNT_DTOR(nsTimerEvent);
   }
+private:
 
   nsTimerImpl *mTimer;
   PRInt32      mGeneration;

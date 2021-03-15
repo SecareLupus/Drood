@@ -104,6 +104,8 @@
 #                          MOZ_BUILD_PROJECTS
 #
 
+CONFIGURE_ARGS = --with-system-zlib
+
 AVAILABLE_PROJECTS = \
   all \
   suite \
@@ -131,7 +133,6 @@ MODULES_necko :=                                \
   mozilla/build                                 \
   mozilla/intl                                  \
   mozilla/modules/libpref                       \
-  mozilla/modules/zlib                          \
   mozilla/netwerk                               \
   mozilla/xpcom                                 \
   mozilla/tools/test-harness                    \
@@ -393,7 +394,6 @@ BOOTSTRAP_camino :=                             \
 
 MODULES_tamarin :=                              \
   mozilla/js/tamarin                            \
-  mozilla/modules/zlib                          \
   $(NULL)
 
 MODULES_all :=                                  \
